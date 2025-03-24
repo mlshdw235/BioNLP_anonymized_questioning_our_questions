@@ -1,15 +1,19 @@
 # MedQABench: Evaluating Medical QA Benchmarks Against Clinical Capabilities
-
 This repository contains the code for the paper "Questioning Our Questions: How Well Do Medical QA Benchmarks Evaluate Clinical Capabilities of Language Models?" submitted to the BioNLP Workshop at ACL 2025.
 
-## Overview
+## Research Overview
+Language models have shown impressive performance on medical question-answering benchmarks, but how well do these results translate to real-world clinical settings? This research presents a systematic analysis of the correlation between benchmark performance and actual clinical capabilities.
+![Research Overview](https://github.com/mlshdw235/BioNLP_anonymized_questioning_our_questions/raw/main/figures/research_overview.png)
+Our study demonstrates that medical QA benchmarks (like MedQA) show a moderate correlation with clinical performance (Spearman's ρ = 0.59), but this correlation is notably lower than those observed within benchmarks themselves. Among various benchmarks, MedQA is the most predictive of clinical performance, yet it still fails to adequately capture essential competencies such as patient communication, longitudinal care, and clinical information extraction.
+![Benchmark-Clinical Correlation](https://github.com/mlshdw235/BioNLP_anonymized_questioning_our_questions/raw/main/figures/correlation_plot_imputated_weighted_two_measures.png)
+Through Bayesian hierarchical modeling, we've estimated representative clinical performance across different models, identifying GPT-4 and GPT-4o as consistently top-performing models that often match or exceed human physicians' performance.
+![Model Performance](https://github.com/mlshdw235/BioNLP_anonymized_questioning_our_questions/raw/main/figures/bayesian_vs_clinical_model_performance_comparison.png)
 
-Language models (LMs) have shown impressive performance on medical question-answering benchmarks, but it remains unclear whether this performance translates to clinical settings. This research investigates the relationship between medical QA benchmarks (like MedQA, MedMCQA, MMLU Medical) and real-world clinical competencies derived from published clinical evaluations.
-
-Our study:
-1. Analyzes correlations between LM performance on medical QA benchmarks and clinical evaluation tasks
-2. Employs Bayesian hierarchical modeling to adjust for dataset and task-specific effects
-3. Investigates the impact of different task types, data sources, therapeutic areas, and evaluation methods on correlation patterns
+## Key Findings
+- Medical QA benchmarks only moderately predict clinical capabilities (ρ = 0.59)
+- MedQA benchmark shows the strongest correlation with clinical performance
+- Significant gaps exist in benchmark coverage of critical clinical skills
+- GPT-4 and GPT-4o demonstrate performance comparable to human physicians
 
 ## Repository Structure
 
@@ -101,6 +105,18 @@ python plot_bayesian_vs_raw_performances.py
 ```
 
 Creates visualizations comparing Bayesian-adjusted performance metrics with raw performance metrics.
+
+## Key Findings
+
+Our research reveals several important insights:
+
+1. **Moderate clinical relevance**: Medical QA benchmarks show a moderate correlation (ρ = 0.59) with clinical performance, suggesting they capture some but not all relevant abilities.
+
+2. **Missing competencies**: Current benchmarks inadequately assess critical clinical skills like patient communication, longitudinal care management, and information extraction.
+
+3. **Model performance**: Through Bayesian modeling, we found that proprietary models (particularly GPT-4 and GPT-4o) consistently outperform open-source alternatives in clinical settings.
+
+4. **Benchmark selection**: Among benchmarks, MedQA demonstrates the strongest alignment with clinical performance, especially for clinical knowledge, treatment, and diagnosis tasks.
 
 ## Citation
 
