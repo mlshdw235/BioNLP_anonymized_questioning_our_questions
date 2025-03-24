@@ -3,11 +3,16 @@ This repository contains the code for the paper "Questioning Our Questions: How 
 
 ## Research Overview
 Language models have shown impressive performance on medical question-answering benchmarks, but how well do these results translate to real-world clinical settings? This research presents a systematic analysis of the correlation between benchmark performance and actual clinical capabilities.
+
 ![Research Overview](https://github.com/mlshdw235/BioNLP_anonymized_questioning_our_questions/raw/main/figures/research_overview.png)
+
 Our study demonstrates that medical QA benchmarks (like MedQA) show a moderate correlation with clinical performance (Spearman's ρ = 0.59), but this correlation is notably lower than those observed within benchmarks themselves. Among various benchmarks, MedQA is the most predictive of clinical performance, yet it still fails to adequately capture essential competencies such as patient communication, longitudinal care, and clinical information extraction.
-![Benchmark-Clinical Correlation](https://github.com/mlshdw235/BioNLP_anonymized_questioning_our_questions/raw/main/figures/correlation_plot_imputated_weighted_two_measures.png)
+
+![Benchmark-Clinical Correlation](https://github.com/mlshdw235/BioNLP_anonymized_questioning_our_questions/raw/main/figures/correlation_plot_imputated_weighted_two_measures.pdf)
+
 Through Bayesian hierarchical modeling, we've estimated representative clinical performance across different models, identifying GPT-4 and GPT-4o as consistently top-performing models that often match or exceed human physicians' performance.
-![Model Performance](https://github.com/mlshdw235/BioNLP_anonymized_questioning_our_questions/raw/main/figures/bayesian_vs_clinical_model_performance_comparison.png)
+
+![Model Performance](https://github.com/mlshdw235/BioNLP_anonymized_questioning_our_questions/raw/main/figures/bayesian_vs_clinical_model_performance_comparison.pdf)
 
 ## Key Findings
 - Medical QA benchmarks only moderately predict clinical capabilities (ρ = 0.59)
