@@ -1,0 +1,1197 @@
+{
+  "benchmark_categories": {
+    "general": [
+      "MMLU",
+      "MMLU Pro",
+      "BBH",
+      "HumanEval",
+      "GSM8K",
+      "MATH"
+    ],
+    "medical": [
+      "MedQA",
+      "MedMCQA",
+      "MMLU Anatomy",
+      "MMLU Clinical Knowledge",
+      "MMLU College Biology",
+      "MMLU College Medicine",
+      "MMLU Medical Genetics",
+      "MMLU Professional Medicine",
+      "PubMedQA"
+    ]
+  },
+  "correlations": {
+    "pearson": {
+      "general": {
+        "MMLU": {
+          "MMLU": 1.0,
+          "MMLU Pro": 0.83,
+          "BBH": 0.9279999999999999,
+          "HumanEval": 0.848,
+          "GSM8K": 0.889,
+          "MATH": 0.419
+        },
+        "MMLU Pro": {
+          "MMLU": 0.83,
+          "MMLU Pro": 1.0,
+          "BBH": 0.9279999999999999,
+          "HumanEval": 0.871,
+          "GSM8K": 0.865,
+          "MATH": 0.252
+        },
+        "BBH": {
+          "MMLU": 0.9279999999999999,
+          "MMLU Pro": 0.9279999999999999,
+          "BBH": 1.0,
+          "HumanEval": 0.925,
+          "GSM8K": 0.902,
+          "MATH": 0.35200000000000004
+        },
+        "HumanEval": {
+          "MMLU": 0.848,
+          "MMLU Pro": 0.871,
+          "BBH": 0.925,
+          "HumanEval": 1.0,
+          "GSM8K": 0.8759999999999999,
+          "MATH": 0.27399999999999997
+        },
+        "GSM8K": {
+          "MMLU": 0.889,
+          "MMLU Pro": 0.865,
+          "BBH": 0.902,
+          "HumanEval": 0.8759999999999999,
+          "GSM8K": 1.0,
+          "MATH": 0.41
+        },
+        "MATH": {
+          "MMLU": 0.419,
+          "MMLU Pro": 0.252,
+          "BBH": 0.35200000000000004,
+          "HumanEval": 0.27399999999999997,
+          "GSM8K": 0.41,
+          "MATH": 1.0
+        }
+      },
+      "medical": {
+        "MedQA": {
+          "MedQA": 1.0,
+          "MedMCQA": 0.9420000000000001,
+          "MMLU Anatomy": 0.599,
+          "MMLU Clinical Knowledge": 0.818,
+          "MMLU College Biology": 0.789,
+          "MMLU College Medicine": 0.74,
+          "MMLU Medical Genetics": 0.8290000000000001,
+          "MMLU Professional Medicine": 0.804,
+          "PubMedQA": 0.483
+        },
+        "MedMCQA": {
+          "MedQA": 0.9420000000000001,
+          "MedMCQA": 1.0,
+          "MMLU Anatomy": 0.741,
+          "MMLU Clinical Knowledge": 0.855,
+          "MMLU College Biology": 0.8240000000000001,
+          "MMLU College Medicine": 0.773,
+          "MMLU Medical Genetics": 0.899,
+          "MMLU Professional Medicine": 0.831,
+          "PubMedQA": 0.513
+        },
+        "MMLU Anatomy": {
+          "MedQA": 0.599,
+          "MedMCQA": 0.741,
+          "MMLU Anatomy": 1.0,
+          "MMLU Clinical Knowledge": 0.857,
+          "MMLU College Biology": 0.8440000000000001,
+          "MMLU College Medicine": 0.752,
+          "MMLU Medical Genetics": 0.7759999999999999,
+          "MMLU Professional Medicine": 0.841,
+          "PubMedQA": 0.441
+        },
+        "MMLU Clinical Knowledge": {
+          "MedQA": 0.818,
+          "MedMCQA": 0.855,
+          "MMLU Anatomy": 0.857,
+          "MMLU Clinical Knowledge": 1.0,
+          "MMLU College Biology": 0.953,
+          "MMLU College Medicine": 0.875,
+          "MMLU Medical Genetics": 0.8759999999999999,
+          "MMLU Professional Medicine": 0.9640000000000001,
+          "PubMedQA": 0.41200000000000003
+        },
+        "MMLU College Biology": {
+          "MedQA": 0.789,
+          "MedMCQA": 0.8240000000000001,
+          "MMLU Anatomy": 0.8440000000000001,
+          "MMLU Clinical Knowledge": 0.953,
+          "MMLU College Biology": 1.0,
+          "MMLU College Medicine": 0.8640000000000001,
+          "MMLU Medical Genetics": 0.861,
+          "MMLU Professional Medicine": 0.927,
+          "PubMedQA": 0.457
+        },
+        "MMLU College Medicine": {
+          "MedQA": 0.74,
+          "MedMCQA": 0.773,
+          "MMLU Anatomy": 0.752,
+          "MMLU Clinical Knowledge": 0.875,
+          "MMLU College Biology": 0.8640000000000001,
+          "MMLU College Medicine": 1.0,
+          "MMLU Medical Genetics": 0.816,
+          "MMLU Professional Medicine": 0.865,
+          "PubMedQA": 0.386
+        },
+        "MMLU Medical Genetics": {
+          "MedQA": 0.8290000000000001,
+          "MedMCQA": 0.899,
+          "MMLU Anatomy": 0.7759999999999999,
+          "MMLU Clinical Knowledge": 0.8759999999999999,
+          "MMLU College Biology": 0.861,
+          "MMLU College Medicine": 0.816,
+          "MMLU Medical Genetics": 1.0,
+          "MMLU Professional Medicine": 0.892,
+          "PubMedQA": 0.35200000000000004
+        },
+        "MMLU Professional Medicine": {
+          "MedQA": 0.804,
+          "MedMCQA": 0.831,
+          "MMLU Anatomy": 0.841,
+          "MMLU Clinical Knowledge": 0.9640000000000001,
+          "MMLU College Biology": 0.927,
+          "MMLU College Medicine": 0.865,
+          "MMLU Medical Genetics": 0.892,
+          "MMLU Professional Medicine": 1.0,
+          "PubMedQA": 0.376
+        },
+        "PubMedQA": {
+          "MedQA": 0.483,
+          "MedMCQA": 0.513,
+          "MMLU Anatomy": 0.441,
+          "MMLU Clinical Knowledge": 0.41200000000000003,
+          "MMLU College Biology": 0.457,
+          "MMLU College Medicine": 0.386,
+          "MMLU Medical Genetics": 0.35200000000000004,
+          "MMLU Professional Medicine": 0.376,
+          "PubMedQA": 1.0
+        }
+      },
+      "cross": {
+        "MMLU": {
+          "MedQA": 0.884,
+          "MedMCQA": 0.865,
+          "MMLU Anatomy": 0.569,
+          "MMLU Clinical Knowledge": 0.748,
+          "MMLU College Biology": 0.705,
+          "MMLU College Medicine": 0.735,
+          "MMLU Medical Genetics": 0.59,
+          "MMLU Professional Medicine": 0.69,
+          "PubMedQA": 0.449
+        },
+        "MMLU Pro": {
+          "MedQA": 0.863,
+          "MedMCQA": 0.929,
+          "MMLU Anatomy": 0.594,
+          "MMLU Clinical Knowledge": 0.875,
+          "MMLU College Biology": 0.748,
+          "MMLU College Medicine": 0.9109999999999999,
+          "MMLU Medical Genetics": 0.925,
+          "MMLU Professional Medicine": 0.851,
+          "PubMedQA": 0.293
+        },
+        "BBH": {
+          "MedQA": 0.905,
+          "MedMCQA": 0.8909999999999999,
+          "MMLU Anatomy": 0.5820000000000001,
+          "MMLU Clinical Knowledge": 0.813,
+          "MMLU College Biology": 0.7290000000000001,
+          "MMLU College Medicine": 0.797,
+          "MMLU Medical Genetics": 0.792,
+          "MMLU Professional Medicine": 0.769,
+          "PubMedQA": 0.423
+        },
+        "HumanEval": {
+          "MedQA": 0.887,
+          "MedMCQA": 0.83,
+          "MMLU Anatomy": 0.743,
+          "MMLU Clinical Knowledge": 0.831,
+          "MMLU College Biology": 0.71,
+          "MMLU College Medicine": 0.804,
+          "MMLU Medical Genetics": 0.8170000000000001,
+          "MMLU Professional Medicine": 0.8079999999999999,
+          "PubMedQA": 0.484
+        },
+        "GSM8K": {
+          "MedQA": 0.889,
+          "MedMCQA": 0.873,
+          "MMLU Anatomy": 0.725,
+          "MMLU Clinical Knowledge": 0.855,
+          "MMLU College Biology": 0.753,
+          "MMLU College Medicine": 0.81,
+          "MMLU Medical Genetics": 0.6920000000000001,
+          "MMLU Professional Medicine": 0.789,
+          "PubMedQA": 0.619
+        },
+        "MATH": {
+          "MedQA": 0.8690000000000001,
+          "MedMCQA": 0.868,
+          "MMLU Anatomy": 0.37,
+          "MMLU Clinical Knowledge": 0.7559999999999999,
+          "MMLU College Biology": 0.475,
+          "MMLU College Medicine": 0.7490000000000001,
+          "MMLU Medical Genetics": 0.909,
+          "MMLU Professional Medicine": 0.735,
+          "PubMedQA": 0.23600000000000002
+        },
+        "MedQA": {
+          "MMLU": 0.884,
+          "MMLU Pro": 0.863,
+          "BBH": 0.905,
+          "HumanEval": 0.887,
+          "GSM8K": 0.889,
+          "MATH": 0.8690000000000001
+        },
+        "MedMCQA": {
+          "MMLU": 0.865,
+          "MMLU Pro": 0.929,
+          "BBH": 0.8909999999999999,
+          "HumanEval": 0.83,
+          "GSM8K": 0.873,
+          "MATH": 0.868
+        },
+        "MMLU Anatomy": {
+          "MMLU": 0.569,
+          "MMLU Pro": 0.594,
+          "BBH": 0.5820000000000001,
+          "HumanEval": 0.743,
+          "GSM8K": 0.725,
+          "MATH": 0.37
+        },
+        "MMLU Clinical Knowledge": {
+          "MMLU": 0.748,
+          "MMLU Pro": 0.875,
+          "BBH": 0.813,
+          "HumanEval": 0.831,
+          "GSM8K": 0.855,
+          "MATH": 0.7559999999999999
+        },
+        "MMLU College Biology": {
+          "MMLU": 0.705,
+          "MMLU Pro": 0.748,
+          "BBH": 0.7290000000000001,
+          "HumanEval": 0.71,
+          "GSM8K": 0.753,
+          "MATH": 0.475
+        },
+        "MMLU College Medicine": {
+          "MMLU": 0.735,
+          "MMLU Pro": 0.9109999999999999,
+          "BBH": 0.797,
+          "HumanEval": 0.804,
+          "GSM8K": 0.81,
+          "MATH": 0.7490000000000001
+        },
+        "MMLU Medical Genetics": {
+          "MMLU": 0.59,
+          "MMLU Pro": 0.925,
+          "BBH": 0.792,
+          "HumanEval": 0.8170000000000001,
+          "GSM8K": 0.6920000000000001,
+          "MATH": 0.909
+        },
+        "MMLU Professional Medicine": {
+          "MMLU": 0.69,
+          "MMLU Pro": 0.851,
+          "BBH": 0.769,
+          "HumanEval": 0.8079999999999999,
+          "GSM8K": 0.789,
+          "MATH": 0.735
+        },
+        "PubMedQA": {
+          "MMLU": 0.449,
+          "MMLU Pro": 0.293,
+          "BBH": 0.423,
+          "HumanEval": 0.484,
+          "GSM8K": 0.619,
+          "MATH": 0.23600000000000002
+        }
+      }
+    },
+    "spearman": {
+      "general": {
+        "MMLU": {
+          "MMLU": 1.0,
+          "MMLU Pro": 0.825,
+          "BBH": 0.946,
+          "HumanEval": 0.87,
+          "GSM8K": 0.8909999999999999,
+          "MATH": 0.8859999999999999
+        },
+        "MMLU Pro": {
+          "MMLU": 0.825,
+          "MMLU Pro": 1.0,
+          "BBH": 0.927,
+          "HumanEval": 0.872,
+          "GSM8K": 0.812,
+          "MATH": 0.805
+        },
+        "BBH": {
+          "MMLU": 0.946,
+          "MMLU Pro": 0.927,
+          "BBH": 1.0,
+          "HumanEval": 0.922,
+          "GSM8K": 0.905,
+          "MATH": 0.862
+        },
+        "HumanEval": {
+          "MMLU": 0.87,
+          "MMLU Pro": 0.872,
+          "BBH": 0.922,
+          "HumanEval": 1.0,
+          "GSM8K": 0.8959999999999999,
+          "MATH": 0.7829999999999999
+        },
+        "GSM8K": {
+          "MMLU": 0.8909999999999999,
+          "MMLU Pro": 0.812,
+          "BBH": 0.905,
+          "HumanEval": 0.8959999999999999,
+          "GSM8K": 1.0,
+          "MATH": 0.777
+        },
+        "MATH": {
+          "MMLU": 0.8859999999999999,
+          "MMLU Pro": 0.805,
+          "BBH": 0.862,
+          "HumanEval": 0.7829999999999999,
+          "GSM8K": 0.777,
+          "MATH": 1.0
+        }
+      },
+      "medical": {
+        "MedQA": {
+          "MedQA": 1.0,
+          "MedMCQA": 0.948,
+          "MMLU Anatomy": 0.653,
+          "MMLU Clinical Knowledge": 0.903,
+          "MMLU College Biology": 0.809,
+          "MMLU College Medicine": 0.84,
+          "MMLU Medical Genetics": 0.893,
+          "MMLU Professional Medicine": 0.89,
+          "PubMedQA": 0.539
+        },
+        "MedMCQA": {
+          "MedQA": 0.948,
+          "MedMCQA": 1.0,
+          "MMLU Anatomy": 0.7090000000000001,
+          "MMLU Clinical Knowledge": 0.878,
+          "MMLU College Biology": 0.7929999999999999,
+          "MMLU College Medicine": 0.823,
+          "MMLU Medical Genetics": 0.9059999999999999,
+          "MMLU Professional Medicine": 0.848,
+          "PubMedQA": 0.557
+        },
+        "MMLU Anatomy": {
+          "MedQA": 0.653,
+          "MedMCQA": 0.7090000000000001,
+          "MMLU Anatomy": 1.0,
+          "MMLU Clinical Knowledge": 0.8059999999999999,
+          "MMLU College Biology": 0.792,
+          "MMLU College Medicine": 0.769,
+          "MMLU Medical Genetics": 0.7829999999999999,
+          "MMLU Professional Medicine": 0.8079999999999999,
+          "PubMedQA": 0.303
+        },
+        "MMLU Clinical Knowledge": {
+          "MedQA": 0.903,
+          "MedMCQA": 0.878,
+          "MMLU Anatomy": 0.8059999999999999,
+          "MMLU Clinical Knowledge": 1.0,
+          "MMLU College Biology": 0.932,
+          "MMLU College Medicine": 0.927,
+          "MMLU Medical Genetics": 0.934,
+          "MMLU Professional Medicine": 0.966,
+          "PubMedQA": 0.45799999999999996
+        },
+        "MMLU College Biology": {
+          "MedQA": 0.809,
+          "MedMCQA": 0.7929999999999999,
+          "MMLU Anatomy": 0.792,
+          "MMLU Clinical Knowledge": 0.932,
+          "MMLU College Biology": 1.0,
+          "MMLU College Medicine": 0.9079999999999999,
+          "MMLU Medical Genetics": 0.87,
+          "MMLU Professional Medicine": 0.919,
+          "PubMedQA": 0.528
+        },
+        "MMLU College Medicine": {
+          "MedQA": 0.84,
+          "MedMCQA": 0.823,
+          "MMLU Anatomy": 0.769,
+          "MMLU Clinical Knowledge": 0.927,
+          "MMLU College Biology": 0.9079999999999999,
+          "MMLU College Medicine": 1.0,
+          "MMLU Medical Genetics": 0.882,
+          "MMLU Professional Medicine": 0.929,
+          "PubMedQA": 0.49700000000000005
+        },
+        "MMLU Medical Genetics": {
+          "MedQA": 0.893,
+          "MedMCQA": 0.9059999999999999,
+          "MMLU Anatomy": 0.7829999999999999,
+          "MMLU Clinical Knowledge": 0.934,
+          "MMLU College Biology": 0.87,
+          "MMLU College Medicine": 0.882,
+          "MMLU Medical Genetics": 1.0,
+          "MMLU Professional Medicine": 0.93,
+          "PubMedQA": 0.485
+        },
+        "MMLU Professional Medicine": {
+          "MedQA": 0.89,
+          "MedMCQA": 0.848,
+          "MMLU Anatomy": 0.8079999999999999,
+          "MMLU Clinical Knowledge": 0.966,
+          "MMLU College Biology": 0.919,
+          "MMLU College Medicine": 0.929,
+          "MMLU Medical Genetics": 0.93,
+          "MMLU Professional Medicine": 1.0,
+          "PubMedQA": 0.503
+        },
+        "PubMedQA": {
+          "MedQA": 0.539,
+          "MedMCQA": 0.557,
+          "MMLU Anatomy": 0.303,
+          "MMLU Clinical Knowledge": 0.45799999999999996,
+          "MMLU College Biology": 0.528,
+          "MMLU College Medicine": 0.49700000000000005,
+          "MMLU Medical Genetics": 0.485,
+          "MMLU Professional Medicine": 0.503,
+          "PubMedQA": 1.0
+        }
+      },
+      "cross": {
+        "MMLU": {
+          "MedQA": 0.9109999999999999,
+          "MedMCQA": 0.8759999999999999,
+          "MMLU Anatomy": 0.586,
+          "MMLU Clinical Knowledge": 0.787,
+          "MMLU College Biology": 0.716,
+          "MMLU College Medicine": 0.7559999999999999,
+          "MMLU Medical Genetics": 0.6729999999999999,
+          "MMLU Professional Medicine": 0.7340000000000001,
+          "PubMedQA": 0.396
+        },
+        "MMLU Pro": {
+          "MedQA": 0.85,
+          "MedMCQA": 0.914,
+          "MMLU Anatomy": 0.49700000000000005,
+          "MMLU Clinical Knowledge": 0.895,
+          "MMLU College Biology": 0.703,
+          "MMLU College Medicine": 0.905,
+          "MMLU Medical Genetics": 0.919,
+          "MMLU Professional Medicine": 0.902,
+          "PubMedQA": 0.369
+        },
+        "BBH": {
+          "MedQA": 0.902,
+          "MedMCQA": 0.875,
+          "MMLU Anatomy": 0.514,
+          "MMLU Clinical Knowledge": 0.8,
+          "MMLU College Biology": 0.698,
+          "MMLU College Medicine": 0.79,
+          "MMLU Medical Genetics": 0.767,
+          "MMLU Professional Medicine": 0.7809999999999999,
+          "PubMedQA": 0.4
+        },
+        "HumanEval": {
+          "MedQA": 0.88,
+          "MedMCQA": 0.82,
+          "MMLU Anatomy": 0.6659999999999999,
+          "MMLU Clinical Knowledge": 0.884,
+          "MMLU College Biology": 0.701,
+          "MMLU College Medicine": 0.8109999999999999,
+          "MMLU Medical Genetics": 0.845,
+          "MMLU Professional Medicine": 0.836,
+          "PubMedQA": 0.435
+        },
+        "GSM8K": {
+          "MedQA": 0.9079999999999999,
+          "MedMCQA": 0.87,
+          "MMLU Anatomy": 0.626,
+          "MMLU Clinical Knowledge": 0.877,
+          "MMLU College Biology": 0.7190000000000001,
+          "MMLU College Medicine": 0.747,
+          "MMLU Medical Genetics": 0.721,
+          "MMLU Professional Medicine": 0.799,
+          "PubMedQA": 0.5379999999999999
+        },
+        "MATH": {
+          "MedQA": 0.84,
+          "MedMCQA": 0.882,
+          "MMLU Anatomy": 0.29100000000000004,
+          "MMLU Clinical Knowledge": 0.775,
+          "MMLU College Biology": 0.39399999999999996,
+          "MMLU College Medicine": 0.6890000000000001,
+          "MMLU Medical Genetics": 0.856,
+          "MMLU Professional Medicine": 0.7190000000000001,
+          "PubMedQA": 0.18100000000000002
+        },
+        "MedQA": {
+          "MMLU": 0.9109999999999999,
+          "MMLU Pro": 0.85,
+          "BBH": 0.902,
+          "HumanEval": 0.88,
+          "GSM8K": 0.9079999999999999,
+          "MATH": 0.84
+        },
+        "MedMCQA": {
+          "MMLU": 0.8759999999999999,
+          "MMLU Pro": 0.914,
+          "BBH": 0.875,
+          "HumanEval": 0.82,
+          "GSM8K": 0.87,
+          "MATH": 0.882
+        },
+        "MMLU Anatomy": {
+          "MMLU": 0.586,
+          "MMLU Pro": 0.49700000000000005,
+          "BBH": 0.514,
+          "HumanEval": 0.6659999999999999,
+          "GSM8K": 0.626,
+          "MATH": 0.29100000000000004
+        },
+        "MMLU Clinical Knowledge": {
+          "MMLU": 0.787,
+          "MMLU Pro": 0.895,
+          "BBH": 0.8,
+          "HumanEval": 0.884,
+          "GSM8K": 0.877,
+          "MATH": 0.775
+        },
+        "MMLU College Biology": {
+          "MMLU": 0.716,
+          "MMLU Pro": 0.703,
+          "BBH": 0.698,
+          "HumanEval": 0.701,
+          "GSM8K": 0.7190000000000001,
+          "MATH": 0.39399999999999996
+        },
+        "MMLU College Medicine": {
+          "MMLU": 0.7559999999999999,
+          "MMLU Pro": 0.905,
+          "BBH": 0.79,
+          "HumanEval": 0.8109999999999999,
+          "GSM8K": 0.747,
+          "MATH": 0.6890000000000001
+        },
+        "MMLU Medical Genetics": {
+          "MMLU": 0.6729999999999999,
+          "MMLU Pro": 0.919,
+          "BBH": 0.767,
+          "HumanEval": 0.845,
+          "GSM8K": 0.721,
+          "MATH": 0.856
+        },
+        "MMLU Professional Medicine": {
+          "MMLU": 0.7340000000000001,
+          "MMLU Pro": 0.902,
+          "BBH": 0.7809999999999999,
+          "HumanEval": 0.836,
+          "GSM8K": 0.799,
+          "MATH": 0.7190000000000001
+        },
+        "PubMedQA": {
+          "MMLU": 0.396,
+          "MMLU Pro": 0.369,
+          "BBH": 0.4,
+          "HumanEval": 0.435,
+          "GSM8K": 0.5379999999999999,
+          "MATH": 0.18100000000000002
+        }
+      }
+    },
+    "kendall": {
+      "general": {
+        "MMLU": {
+          "MMLU": 1.0,
+          "MMLU Pro": 0.6759999999999999,
+          "BBH": 0.8140000000000001,
+          "HumanEval": 0.6940000000000001,
+          "GSM8K": 0.7190000000000001,
+          "MATH": 0.7140000000000001
+        },
+        "MMLU Pro": {
+          "MMLU": 0.6759999999999999,
+          "MMLU Pro": 1.0,
+          "BBH": 0.778,
+          "HumanEval": 0.696,
+          "GSM8K": 0.624,
+          "MATH": 0.632
+        },
+        "BBH": {
+          "MMLU": 0.8140000000000001,
+          "MMLU Pro": 0.778,
+          "BBH": 1.0,
+          "HumanEval": 0.764,
+          "GSM8K": 0.75,
+          "MATH": 0.7240000000000001
+        },
+        "HumanEval": {
+          "MMLU": 0.6940000000000001,
+          "MMLU Pro": 0.696,
+          "BBH": 0.764,
+          "HumanEval": 1.0,
+          "GSM8K": 0.718,
+          "MATH": 0.638
+        },
+        "GSM8K": {
+          "MMLU": 0.7190000000000001,
+          "MMLU Pro": 0.624,
+          "BBH": 0.75,
+          "HumanEval": 0.718,
+          "GSM8K": 1.0,
+          "MATH": 0.583
+        },
+        "MATH": {
+          "MMLU": 0.7140000000000001,
+          "MMLU Pro": 0.632,
+          "BBH": 0.7240000000000001,
+          "HumanEval": 0.638,
+          "GSM8K": 0.583,
+          "MATH": 1.0
+        }
+      },
+      "medical": {
+        "MedQA": {
+          "MedQA": 1.0,
+          "MedMCQA": 0.821,
+          "MMLU Anatomy": 0.529,
+          "MMLU Clinical Knowledge": 0.764,
+          "MMLU College Biology": 0.6559999999999999,
+          "MMLU College Medicine": 0.684,
+          "MMLU Medical Genetics": 0.731,
+          "MMLU Professional Medicine": 0.748,
+          "PubMedQA": 0.376
+        },
+        "MedMCQA": {
+          "MedQA": 0.821,
+          "MedMCQA": 1.0,
+          "MMLU Anatomy": 0.5589999999999999,
+          "MMLU Clinical Knowledge": 0.715,
+          "MMLU College Biology": 0.626,
+          "MMLU College Medicine": 0.6659999999999999,
+          "MMLU Medical Genetics": 0.7490000000000001,
+          "MMLU Professional Medicine": 0.679,
+          "PubMedQA": 0.395
+        },
+        "MMLU Anatomy": {
+          "MedQA": 0.529,
+          "MedMCQA": 0.5589999999999999,
+          "MMLU Anatomy": 1.0,
+          "MMLU Clinical Knowledge": 0.674,
+          "MMLU College Biology": 0.65,
+          "MMLU College Medicine": 0.627,
+          "MMLU Medical Genetics": 0.643,
+          "MMLU Professional Medicine": 0.6829999999999999,
+          "PubMedQA": 0.201
+        },
+        "MMLU Clinical Knowledge": {
+          "MedQA": 0.764,
+          "MedMCQA": 0.715,
+          "MMLU Anatomy": 0.674,
+          "MMLU Clinical Knowledge": 1.0,
+          "MMLU College Biology": 0.795,
+          "MMLU College Medicine": 0.833,
+          "MMLU Medical Genetics": 0.785,
+          "MMLU Professional Medicine": 0.843,
+          "PubMedQA": 0.303
+        },
+        "MMLU College Biology": {
+          "MedQA": 0.6559999999999999,
+          "MedMCQA": 0.626,
+          "MMLU Anatomy": 0.65,
+          "MMLU Clinical Knowledge": 0.795,
+          "MMLU College Biology": 1.0,
+          "MMLU College Medicine": 0.7829999999999999,
+          "MMLU Medical Genetics": 0.715,
+          "MMLU Professional Medicine": 0.774,
+          "PubMedQA": 0.373
+        },
+        "MMLU College Medicine": {
+          "MedQA": 0.684,
+          "MedMCQA": 0.6659999999999999,
+          "MMLU Anatomy": 0.627,
+          "MMLU Clinical Knowledge": 0.833,
+          "MMLU College Biology": 0.7829999999999999,
+          "MMLU College Medicine": 1.0,
+          "MMLU Medical Genetics": 0.738,
+          "MMLU Professional Medicine": 0.789,
+          "PubMedQA": 0.34
+        },
+        "MMLU Medical Genetics": {
+          "MedQA": 0.731,
+          "MedMCQA": 0.7490000000000001,
+          "MMLU Anatomy": 0.643,
+          "MMLU Clinical Knowledge": 0.785,
+          "MMLU College Biology": 0.715,
+          "MMLU College Medicine": 0.738,
+          "MMLU Medical Genetics": 1.0,
+          "MMLU Professional Medicine": 0.7809999999999999,
+          "PubMedQA": 0.332
+        },
+        "MMLU Professional Medicine": {
+          "MedQA": 0.748,
+          "MedMCQA": 0.679,
+          "MMLU Anatomy": 0.6829999999999999,
+          "MMLU Clinical Knowledge": 0.843,
+          "MMLU College Biology": 0.774,
+          "MMLU College Medicine": 0.789,
+          "MMLU Medical Genetics": 0.7809999999999999,
+          "MMLU Professional Medicine": 1.0,
+          "PubMedQA": 0.341
+        },
+        "PubMedQA": {
+          "MedQA": 0.376,
+          "MedMCQA": 0.395,
+          "MMLU Anatomy": 0.201,
+          "MMLU Clinical Knowledge": 0.303,
+          "MMLU College Biology": 0.373,
+          "MMLU College Medicine": 0.34,
+          "MMLU Medical Genetics": 0.332,
+          "MMLU Professional Medicine": 0.341,
+          "PubMedQA": 1.0
+        }
+      },
+      "cross": {
+        "MMLU": {
+          "MedQA": 0.7609999999999999,
+          "MedMCQA": 0.747,
+          "MMLU Anatomy": 0.457,
+          "MMLU Clinical Knowledge": 0.647,
+          "MMLU College Biology": 0.561,
+          "MMLU College Medicine": 0.595,
+          "MMLU Medical Genetics": 0.561,
+          "MMLU Professional Medicine": 0.575,
+          "PubMedQA": 0.281
+        },
+        "MMLU Pro": {
+          "MedQA": 0.6990000000000001,
+          "MedMCQA": 0.743,
+          "MMLU Anatomy": 0.375,
+          "MMLU Clinical Knowledge": 0.735,
+          "MMLU College Biology": 0.5539999999999999,
+          "MMLU College Medicine": 0.755,
+          "MMLU Medical Genetics": 0.784,
+          "MMLU Professional Medicine": 0.7509999999999999,
+          "PubMedQA": 0.259
+        },
+        "BBH": {
+          "MedQA": 0.736,
+          "MedMCQA": 0.71,
+          "MMLU Anatomy": 0.415,
+          "MMLU Clinical Knowledge": 0.649,
+          "MMLU College Biology": 0.519,
+          "MMLU College Medicine": 0.61,
+          "MMLU Medical Genetics": 0.618,
+          "MMLU Professional Medicine": 0.626,
+          "PubMedQA": 0.27399999999999997
+        },
+        "HumanEval": {
+          "MedQA": 0.7290000000000001,
+          "MedMCQA": 0.654,
+          "MMLU Anatomy": 0.5379999999999999,
+          "MMLU Clinical Knowledge": 0.7290000000000001,
+          "MMLU College Biology": 0.57,
+          "MMLU College Medicine": 0.649,
+          "MMLU Medical Genetics": 0.7020000000000001,
+          "MMLU Professional Medicine": 0.6759999999999999,
+          "PubMedQA": 0.311
+        },
+        "GSM8K": {
+          "MedQA": 0.7440000000000001,
+          "MedMCQA": 0.7,
+          "MMLU Anatomy": 0.488,
+          "MMLU Clinical Knowledge": 0.713,
+          "MMLU College Biology": 0.561,
+          "MMLU College Medicine": 0.578,
+          "MMLU Medical Genetics": 0.575,
+          "MMLU Professional Medicine": 0.644,
+          "PubMedQA": 0.386
+        },
+        "MATH": {
+          "MedQA": 0.6890000000000001,
+          "MedMCQA": 0.71,
+          "MMLU Anatomy": 0.275,
+          "MMLU Clinical Knowledge": 0.565,
+          "MMLU College Biology": 0.331,
+          "MMLU College Medicine": 0.537,
+          "MMLU Medical Genetics": 0.7120000000000001,
+          "MMLU Professional Medicine": 0.552,
+          "PubMedQA": 0.149
+        },
+        "MedQA": {
+          "MMLU": 0.7609999999999999,
+          "MMLU Pro": 0.6990000000000001,
+          "BBH": 0.736,
+          "HumanEval": 0.7290000000000001,
+          "GSM8K": 0.7440000000000001,
+          "MATH": 0.6890000000000001
+        },
+        "MedMCQA": {
+          "MMLU": 0.747,
+          "MMLU Pro": 0.743,
+          "BBH": 0.71,
+          "HumanEval": 0.654,
+          "GSM8K": 0.7,
+          "MATH": 0.71
+        },
+        "MMLU Anatomy": {
+          "MMLU": 0.457,
+          "MMLU Pro": 0.375,
+          "BBH": 0.415,
+          "HumanEval": 0.5379999999999999,
+          "GSM8K": 0.488,
+          "MATH": 0.275
+        },
+        "MMLU Clinical Knowledge": {
+          "MMLU": 0.647,
+          "MMLU Pro": 0.735,
+          "BBH": 0.649,
+          "HumanEval": 0.7290000000000001,
+          "GSM8K": 0.713,
+          "MATH": 0.565
+        },
+        "MMLU College Biology": {
+          "MMLU": 0.561,
+          "MMLU Pro": 0.5539999999999999,
+          "BBH": 0.519,
+          "HumanEval": 0.57,
+          "GSM8K": 0.561,
+          "MATH": 0.331
+        },
+        "MMLU College Medicine": {
+          "MMLU": 0.595,
+          "MMLU Pro": 0.755,
+          "BBH": 0.61,
+          "HumanEval": 0.649,
+          "GSM8K": 0.578,
+          "MATH": 0.537
+        },
+        "MMLU Medical Genetics": {
+          "MMLU": 0.561,
+          "MMLU Pro": 0.784,
+          "BBH": 0.618,
+          "HumanEval": 0.7020000000000001,
+          "GSM8K": 0.575,
+          "MATH": 0.7120000000000001
+        },
+        "MMLU Professional Medicine": {
+          "MMLU": 0.575,
+          "MMLU Pro": 0.7509999999999999,
+          "BBH": 0.626,
+          "HumanEval": 0.6759999999999999,
+          "GSM8K": 0.644,
+          "MATH": 0.552
+        },
+        "PubMedQA": {
+          "MMLU": 0.281,
+          "MMLU Pro": 0.259,
+          "BBH": 0.27399999999999997,
+          "HumanEval": 0.311,
+          "GSM8K": 0.386,
+          "MATH": 0.149
+        }
+      }
+    },
+    "lin_ccc": {
+      "general": {
+        "MMLU": {
+          "MMLU": 1.0,
+          "MMLU Pro": 0.235,
+          "BBH": 0.893,
+          "HumanEval": 0.581,
+          "GSM8K": 0.7609999999999999,
+          "MATH": 0.203
+        },
+        "MMLU Pro": {
+          "MMLU": 0.235,
+          "MMLU Pro": 1.0,
+          "BBH": 0.436,
+          "HumanEval": 0.611,
+          "GSM8K": 0.35600000000000004,
+          "MATH": 0.11800000000000001
+        },
+        "BBH": {
+          "MMLU": 0.893,
+          "MMLU Pro": 0.436,
+          "BBH": 1.0,
+          "HumanEval": 0.718,
+          "GSM8K": 0.838,
+          "MATH": 0.205
+        },
+        "HumanEval": {
+          "MMLU": 0.581,
+          "MMLU Pro": 0.611,
+          "BBH": 0.718,
+          "HumanEval": 1.0,
+          "GSM8K": 0.7809999999999999,
+          "MATH": 0.21
+        },
+        "GSM8K": {
+          "MMLU": 0.7609999999999999,
+          "MMLU Pro": 0.35600000000000004,
+          "BBH": 0.838,
+          "HumanEval": 0.7809999999999999,
+          "GSM8K": 1.0,
+          "MATH": 0.307
+        },
+        "MATH": {
+          "MMLU": 0.203,
+          "MMLU Pro": 0.11800000000000001,
+          "BBH": 0.205,
+          "HumanEval": 0.21,
+          "GSM8K": 0.307,
+          "MATH": 1.0
+        }
+      },
+      "medical": {
+        "MedQA": {
+          "MedQA": 1.0,
+          "MedMCQA": 0.919,
+          "MMLU Anatomy": 0.597,
+          "MMLU Clinical Knowledge": 0.6859999999999999,
+          "MMLU College Biology": 0.637,
+          "MMLU College Medicine": 0.72,
+          "MMLU Medical Genetics": 0.5870000000000001,
+          "MMLU Professional Medicine": 0.674,
+          "PubMedQA": 0.382
+        },
+        "MedMCQA": {
+          "MedQA": 0.919,
+          "MedMCQA": 1.0,
+          "MMLU Anatomy": 0.688,
+          "MMLU Clinical Knowledge": 0.591,
+          "MMLU College Biology": 0.55,
+          "MMLU College Medicine": 0.6679999999999999,
+          "MMLU Medical Genetics": 0.505,
+          "MMLU Professional Medicine": 0.5760000000000001,
+          "PubMedQA": 0.355
+        },
+        "MMLU Anatomy": {
+          "MedQA": 0.597,
+          "MedMCQA": 0.688,
+          "MMLU Anatomy": 1.0,
+          "MMLU Clinical Knowledge": 0.685,
+          "MMLU College Biology": 0.6759999999999999,
+          "MMLU College Medicine": 0.728,
+          "MMLU Medical Genetics": 0.535,
+          "MMLU Professional Medicine": 0.705,
+          "PubMedQA": 0.361
+        },
+        "MMLU Clinical Knowledge": {
+          "MedQA": 0.6859999999999999,
+          "MedMCQA": 0.591,
+          "MMLU Anatomy": 0.685,
+          "MMLU Clinical Knowledge": 1.0,
+          "MMLU College Biology": 0.9279999999999999,
+          "MMLU College Medicine": 0.799,
+          "MMLU Medical Genetics": 0.841,
+          "MMLU Professional Medicine": 0.9470000000000001,
+          "PubMedQA": 0.387
+        },
+        "MMLU College Biology": {
+          "MedQA": 0.637,
+          "MedMCQA": 0.55,
+          "MMLU Anatomy": 0.6759999999999999,
+          "MMLU Clinical Knowledge": 0.9279999999999999,
+          "MMLU College Biology": 1.0,
+          "MMLU College Medicine": 0.77,
+          "MMLU Medical Genetics": 0.825,
+          "MMLU Professional Medicine": 0.924,
+          "PubMedQA": 0.384
+        },
+        "MMLU College Medicine": {
+          "MedQA": 0.72,
+          "MedMCQA": 0.6679999999999999,
+          "MMLU Anatomy": 0.728,
+          "MMLU Clinical Knowledge": 0.799,
+          "MMLU College Biology": 0.77,
+          "MMLU College Medicine": 1.0,
+          "MMLU Medical Genetics": 0.665,
+          "MMLU Professional Medicine": 0.7979999999999999,
+          "PubMedQA": 0.335
+        },
+        "MMLU Medical Genetics": {
+          "MedQA": 0.5870000000000001,
+          "MedMCQA": 0.505,
+          "MMLU Anatomy": 0.535,
+          "MMLU Clinical Knowledge": 0.841,
+          "MMLU College Biology": 0.825,
+          "MMLU College Medicine": 0.665,
+          "MMLU Medical Genetics": 1.0,
+          "MMLU Professional Medicine": 0.838,
+          "PubMedQA": 0.295
+        },
+        "MMLU Professional Medicine": {
+          "MedQA": 0.674,
+          "MedMCQA": 0.5760000000000001,
+          "MMLU Anatomy": 0.705,
+          "MMLU Clinical Knowledge": 0.9470000000000001,
+          "MMLU College Biology": 0.924,
+          "MMLU College Medicine": 0.7979999999999999,
+          "MMLU Medical Genetics": 0.838,
+          "MMLU Professional Medicine": 1.0,
+          "PubMedQA": 0.331
+        },
+        "PubMedQA": {
+          "MedQA": 0.382,
+          "MedMCQA": 0.355,
+          "MMLU Anatomy": 0.361,
+          "MMLU Clinical Knowledge": 0.387,
+          "MMLU College Biology": 0.384,
+          "MMLU College Medicine": 0.335,
+          "MMLU Medical Genetics": 0.295,
+          "MMLU Professional Medicine": 0.331,
+          "PubMedQA": 1.0
+        }
+      },
+      "cross": {
+        "MMLU": {
+          "MedQA": 0.785,
+          "MedMCQA": 0.679,
+          "MMLU Anatomy": 0.48200000000000004,
+          "MMLU Clinical Knowledge": 0.7140000000000001,
+          "MMLU College Biology": 0.652,
+          "MMLU College Medicine": 0.725,
+          "MMLU Medical Genetics": 0.473,
+          "MMLU Professional Medicine": 0.6509999999999999,
+          "PubMedQA": 0.442
+        },
+        "MMLU Pro": {
+          "MedQA": 0.54,
+          "MedMCQA": 0.691,
+          "MMLU Anatomy": 0.32799999999999996,
+          "MMLU Clinical Knowledge": 0.2,
+          "MMLU College Biology": 0.177,
+          "MMLU College Medicine": 0.32899999999999996,
+          "MMLU Medical Genetics": 0.198,
+          "MMLU Professional Medicine": 0.215,
+          "PubMedQA": 0.147
+        },
+        "BBH": {
+          "MedQA": 0.863,
+          "MedMCQA": 0.78,
+          "MMLU Anatomy": 0.545,
+          "MMLU Clinical Knowledge": 0.7390000000000001,
+          "MMLU College Biology": 0.655,
+          "MMLU College Medicine": 0.7959999999999999,
+          "MMLU Medical Genetics": 0.568,
+          "MMLU Professional Medicine": 0.69,
+          "PubMedQA": 0.409
+        },
+        "HumanEval": {
+          "MedQA": 0.825,
+          "MedMCQA": 0.741,
+          "MMLU Anatomy": 0.73,
+          "MMLU Clinical Knowledge": 0.5589999999999999,
+          "MMLU College Biology": 0.557,
+          "MMLU College Medicine": 0.6829999999999999,
+          "MMLU Medical Genetics": 0.44299999999999995,
+          "MMLU Professional Medicine": 0.603,
+          "PubMedQA": 0.428
+        },
+        "GSM8K": {
+          "MedQA": 0.7959999999999999,
+          "MedMCQA": 0.74,
+          "MMLU Anatomy": 0.701,
+          "MMLU Clinical Knowledge": 0.713,
+          "MMLU College Biology": 0.696,
+          "MMLU College Medicine": 0.763,
+          "MMLU Medical Genetics": 0.499,
+          "MMLU Professional Medicine": 0.7070000000000001,
+          "PubMedQA": 0.5820000000000001
+        },
+        "MATH": {
+          "MedQA": 0.584,
+          "MedMCQA": 0.644,
+          "MMLU Anatomy": 0.174,
+          "MMLU Clinical Knowledge": 0.139,
+          "MMLU College Biology": 0.11599999999999999,
+          "MMLU College Medicine": 0.23600000000000002,
+          "MMLU Medical Genetics": 0.195,
+          "MMLU Professional Medicine": 0.161,
+          "PubMedQA": 0.105
+        },
+        "MedQA": {
+          "MMLU": 0.785,
+          "MMLU Pro": 0.54,
+          "BBH": 0.863,
+          "HumanEval": 0.825,
+          "GSM8K": 0.7959999999999999,
+          "MATH": 0.584
+        },
+        "MedMCQA": {
+          "MMLU": 0.679,
+          "MMLU Pro": 0.691,
+          "BBH": 0.78,
+          "HumanEval": 0.741,
+          "GSM8K": 0.74,
+          "MATH": 0.644
+        },
+        "MMLU Anatomy": {
+          "MMLU": 0.48200000000000004,
+          "MMLU Pro": 0.32799999999999996,
+          "BBH": 0.545,
+          "HumanEval": 0.73,
+          "GSM8K": 0.701,
+          "MATH": 0.174
+        },
+        "MMLU Clinical Knowledge": {
+          "MMLU": 0.7140000000000001,
+          "MMLU Pro": 0.2,
+          "BBH": 0.7390000000000001,
+          "HumanEval": 0.5589999999999999,
+          "GSM8K": 0.713,
+          "MATH": 0.139
+        },
+        "MMLU College Biology": {
+          "MMLU": 0.652,
+          "MMLU Pro": 0.177,
+          "BBH": 0.655,
+          "HumanEval": 0.557,
+          "GSM8K": 0.696,
+          "MATH": 0.11599999999999999
+        },
+        "MMLU College Medicine": {
+          "MMLU": 0.725,
+          "MMLU Pro": 0.32899999999999996,
+          "BBH": 0.7959999999999999,
+          "HumanEval": 0.6829999999999999,
+          "GSM8K": 0.763,
+          "MATH": 0.23600000000000002
+        },
+        "MMLU Medical Genetics": {
+          "MMLU": 0.473,
+          "MMLU Pro": 0.198,
+          "BBH": 0.568,
+          "HumanEval": 0.44299999999999995,
+          "GSM8K": 0.499,
+          "MATH": 0.195
+        },
+        "MMLU Professional Medicine": {
+          "MMLU": 0.6509999999999999,
+          "MMLU Pro": 0.215,
+          "BBH": 0.69,
+          "HumanEval": 0.603,
+          "GSM8K": 0.7070000000000001,
+          "MATH": 0.161
+        },
+        "PubMedQA": {
+          "MMLU": 0.442,
+          "MMLU Pro": 0.147,
+          "BBH": 0.409,
+          "HumanEval": 0.428,
+          "GSM8K": 0.5820000000000001,
+          "MATH": 0.105
+        }
+      }
+    }
+  }
+}

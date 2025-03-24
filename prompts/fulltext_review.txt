@@ -1,0 +1,253 @@
+Please analyze the following research paper to extract information about LLM performance evaluation in clinical settings. 
+The analysis should cover the full text of the paper, with particular attention to the methods and results sections. 
+Present your analysis in the following structured format, maintaining exact quotes where possible. 
+Start your response with "ANALYSIS_START" and end with "ANALYSIS_END".
+
+INPUT REQUIRED:
+- PDF file of the full research paper
+
+TASK:
+Analyze the full text to extract the following information:
+
+1. PAPER_TYPE: Classify the paper as one of the following:
+- "Clinical LLM Performance Evaluation - Original": Paper that conducts new experiments to evaluate LLM performance in clinical tasks and reports original performance metrics/results
+- "Clinical LLM Performance Review": Paper that summarizes or analyzes existing LLM clinical performance evaluations without conducting new experiments or reporting new performance data
+- "Non-Clinical LLM Evaluation": Paper not related to clinical LLM performance evaluation
+
+Note: If the paper is not classified as "Clinical LLM Performance Evaluation - Original", return empty/void information for all subsequent sections.
+
+2. BIBLIOGRAPHIC_DATES: Extract paper submission and publication dates.
+Format: {
+    "received_date":    "YYYY-MM-DD",
+    "accepted_date":    "YYYY-MM-DD",
+    "published_date":   "YYYY-MM-DD"
+}
+
+3. CLINICAL_DOMAIN: Extract information about the clinical specialty and context.
+Format: {
+    "specialty":             "primary clinical specialty field",
+    "disease_treatment":     "specific diseases or treatments in focus",
+    "mesh_terms": [
+        "relevant MeSH term 1",
+        "relevant MeSH term 2",
+        ...
+    ]
+}
+
+4. MODELS: Extract all LLM models mentioned in the paper.
+Format: [
+    {
+        "common_name":      "most frequently used name in paper",
+        "full_name":        "complete name including version",
+        "base_model":       "base model name if fine-tuned, NA if not applicable or unknown"
+    },
+    ...
+]
+
+5. EXPERIMENTAL_SETTINGS: Extract LLM inference parameters.
+Format: {
+    "llm_inference_temperature":    "0.x",
+    "llm_inference_few_shot":       "n-shot",
+    "llm_inference_CoT":            true/false
+}
+
+6. HUMAN_GROUPS: Extract all medical professional groups that underwent the same evaluation tasks as the models for direct performance comparison.
+Format: [
+    "group1",
+    "group2",
+    ...
+]
+
+7. EVALUATION_TASKS: Extract all clinical evaluation tasks.
+Format: [
+    {
+        "task_name_extractive":         "exact task name/phrase from text",
+        "task_name_abstractive":        "generalized/standardized task name",
+        "reference_sentence":           "exact quote describing the task",
+        "metrics": [
+            {
+                "metric_name_extractive":    "exact metric name from text",
+                "metric_name_abstractive":   "standardized metric name",
+                "value_range":              [min, max],
+                "higher_better":            true/false,
+                "reference_sentence":       "exact quote describing the metric"
+            },
+            ...
+        ],
+        "sample_size":                      integer,
+        "sample_size_reference_sentence":   "exact quote mentioning sample size",
+        "data_source_extractive":           "exact quote of data source",
+        "data_source_abstractive":          "standardized description of data source"
+    },
+    ...
+]
+
+8. PERFORMANCE_RESULTS: Extract all reported performance metrics.
+Format: [
+    {
+        "value":                "exact performance value including units/confidence intervals if provided",
+        "metric":               "exact metric name from EVALUATION_TASKS metrics_extractive",
+        "subject":              "model name or human group name (use exact names from MODELS or HUMAN_GROUPS)",
+        "reference_sentence":   "exact quote reporting this result"
+    },
+    ...
+]
+
+INPUT EXAMPLE:
+Title: "Evaluating Large Language Models for Clinical Triage: A Comparative Analysis"
+Full Text:
+"We conducted a comprehensive evaluation of large language models in clinical triage scenarios at Memorial General Hospital. The study focused on two prominent models: ChatGPT (GPT-3.5-turbo-0613) and Google's GEMINI Pro. Our methodology involved presenting standardized maxillofacial trauma cases to these models under controlled conditions (temperature=0.7, zero-shot setup without chain-of-thought prompting). The evaluation consisted of 10 carefully selected cases from our referral center's database, representing diverse complexity levels. Each model was tasked with assessing case urgency, providing diagnoses, and recommending appropriate actions. Performance was measured using three key metrics: examination accuracy (percentage-based), diagnostic accuracy (5-point scale), and recommendation relevance (5-point scale). Results revealed varying performance levels between models. ChatGPT achieved 70% accuracy in examinations while GEMINI reached 50%. Diagnostic accuracy scores showed GEMINI at 3.30 and ChatGPT at 2.30. For recommendation relevance, ChatGPT scored 3.50 compared to GEMINI's 2.90. These findings suggest differential strengths across models in clinical triage tasks.
+Manuscript received: 2024-01-15
+Accepted: 2024-02-01
+Published online: 2024-02-15"
+
+EXAMPLE OUTPUT:
+ANALYSIS_START
+<PAPER_TYPE>
+"Clinical LLM Performance Evaluation - Original"
+</PAPER_TYPE>
+
+<BIBLIOGRAPHIC_DATES>
+{
+    "received_date":    "2024-01-15",
+    "accepted_date":    "2024-02-01",
+    "published_date":   "2024-02-15"
+}
+</BIBLIOGRAPHIC_DATES>
+
+<CLINICAL_DOMAIN>
+{
+    "specialty":             "oral and maxillofacial surgery",
+    "disease_treatment":     "maxillofacial trauma",
+    "mesh_terms": [
+        "Maxillofacial Injuries",
+        "Triage",
+        "Emergency Medicine"
+    ]
+}
+</CLINICAL_DOMAIN>
+
+<MODELS>
+[
+    {
+        "common_name":      "ChatGPT",
+        "full_name":        "GPT-3.5-turbo-0613",
+        "base_model":       "NA"
+    },
+    {
+        "common_name":      "GEMINI",
+        "full_name":        "Google GEMINI Pro",
+        "base_model":       "NA"
+    }
+]
+</MODELS>
+
+<EXPERIMENTAL_SETTINGS>
+{
+    "llm_inference_temperature":    "0.7",
+    "llm_inference_few_shot":       "zero-shot",
+    "llm_inference_CoT":            false
+}
+</EXPERIMENTAL_SETTINGS>
+
+<HUMAN_GROUPS>
+[]
+</HUMAN_GROUPS>
+
+<EVALUATION_TASKS>
+[
+    {
+        "task_name_extractive":         "triaging complex maxillofacial trauma cases",
+        "task_name_abstractive":        "clinical trauma triage assessment",
+        "reference_sentence":           "Each model was tasked with assessing case urgency, providing diagnoses, and recommending appropriate actions",
+        "metrics": [
+            {
+                "metric_name_extractive":    "accuracy in examinations",
+                "metric_name_abstractive":   "examination accuracy",
+                "value_range":              [0, 100],
+                "higher_better":            true,
+                "reference_sentence":       "Performance was measured using three key metrics: examination accuracy (percentage-based)"
+            },
+            {
+                "metric_name_extractive":    "diagnosis accuracy scores",
+                "metric_name_abstractive":   "diagnostic performance",
+                "value_range":              [0, 5],
+                "higher_better":            true,
+                "reference_sentence":       "Performance was measured using three key metrics: diagnostic accuracy (5-point scale)"
+            },
+            {
+                "metric_name_extractive":    "recommendation relevance",
+                "metric_name_abstractive":   "recommendation quality",
+                "value_range":              [0, 5],
+                "higher_better":            true,
+                "reference_sentence":       "Performance was measured using three key metrics: recommendation relevance (5-point scale)"
+            }
+        ],
+        "sample_size":                      10,
+        "sample_size_reference_sentence":   "The evaluation consisted of 10 carefully selected cases from our referral center's database",
+        "data_source_extractive":           "carefully selected cases from our referral center's database",
+        "data_source_abstractive":          "institutional clinical database"
+    }
+]
+</EVALUATION_TASKS>
+
+<PERFORMANCE_RESULTS>
+[
+    {
+        "value":                "70%",
+        "metric":               "accuracy in examinations",
+        "subject":              "ChatGPT",
+        "reference_sentence":   "ChatGPT achieved 70% accuracy in examinations"
+    },
+    {
+        "value":                "50%",
+        "metric":               "accuracy in examinations",
+        "subject":              "GEMINI",
+        "reference_sentence":   "ChatGPT achieved 70% accuracy in examinations while GEMINI reached 50%"
+    },
+    {
+        "value":                "2.30",
+        "metric":               "diagnosis accuracy scores",
+        "subject":              "ChatGPT",
+        "reference_sentence":   "Diagnostic accuracy scores showed GEMINI at 3.30 and ChatGPT at 2.30"
+    },
+    {
+        "value":                "3.30",
+        "metric":               "diagnosis accuracy scores",
+        "subject":              "GEMINI",
+        "reference_sentence":   "Diagnostic accuracy scores showed GEMINI at 3.30 and ChatGPT at 2.30"
+    },
+    {
+        "value":                "3.50",
+        "metric":               "recommendation relevance",
+        "subject":              "ChatGPT",
+        "reference_sentence":   "For recommendation relevance, ChatGPT scored 3.50 compared to GEMINI's 2.90"
+    },
+    {
+        "value":                "2.90",
+        "metric":               "recommendation relevance",
+        "subject":              "GEMINI",
+        "reference_sentence":   "For recommendation relevance, ChatGPT scored 3.50 compared to GEMINI's 2.90"
+    }
+]
+</PERFORMANCE_RESULTS>
+ANALYSIS_END
+
+IMPORTANT GUIDELINES:
+- Extract information from the full text of the paper, with particular attention to methods and results sections
+- Use exact quotes from the text where possible
+- Present all lists and dictionaries in valid Python syntax with double quotes for strings
+- Do not include any comments in the final output
+- Maintain consistent naming between sections
+- Return empty lists/dictionaries if information is not available
+- Include only information explicitly stated in the paper
+- Each section must be enclosed in specific XML-style tags
+- Numbers should be represented as strings when they include units or special characters
+- For abstractive naming/metrics, ensure they are standardized and generalizable
+- If paper type is not "Clinical LLM Performance Evaluation - Original", return void/empty information for all sections except PAPER_TYPE and BIBLIOGRAPHIC_DATES
+- The analysis must start with "ANALYSIS_START" and end with "ANALYSIS_END" on separate lines
+
+Now analyzing the following paper:
+
+- Title: {Title}
+- Full Text: {Full_Text}

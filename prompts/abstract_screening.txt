@@ -1,0 +1,130 @@
+Please analyze the following research paper's title and abstract to extract information about LLM performance evaluation in clinical settings. Present your analysis in the following structured format, maintaining exact quotes where possible. Start your response with "ANALYSIS_START" and end with "ANALYSIS_END".
+
+INPUT REQUIRED:
+- Title: [paper title]
+- Abstract: [paper abstract]
+
+TASK:
+Analyze the title and abstract to extract the following information:
+
+1. PAPER_TYPE: Classify the paper as one of the following:
+- "Clinical LLM Performance Evaluation - Original": Paper that conducts new experiments to evaluate LLM performance in clinical tasks and reports original performance metrics/results
+- "Clinical LLM Performance Review": Paper that summarizes or analyzes existing LLM clinical performance evaluations without conducting new experiments or reporting new performance data
+- "Non-Clinical LLM Evaluation": Paper not related to clinical LLM performance evaluation
+
+2. MODELS: Extract all LLM models mentioned in the abstract.
+Format: ["model1", "model2", ...]
+Use the most commonly used name for each model in the abstract.
+Return empty list if no specific models are mentioned.
+
+3. MULTIPLE_MODELS_USAGE: For papers classified as "Clinical LLM Performance Evaluation - Original" only:
+Format: true/false/NA
+- true: Paper clearly evaluates multiple LLMs or strongly suggests multiple LLM evaluation in the full text
+- false: Paper clearly focuses on single LLM evaluation
+- NA: For non-original clinical LLM evaluation papers
+
+4. HUMAN_GROUPS: Extract all medical professional groups that underwent the same evaluation tasks as the models for direct performance comparison.
+Format: ["group1", "group2", ...]
+Example: ["medical students", "residents", "attending physicians"]
+Return empty list if no human groups underwent direct performance comparison.
+
+5. EVALUATION_TASKS: Extract all clinical evaluation tasks.
+Format: [
+    {
+        "task_name_extractive": "exact task name/phrase from text",
+        "task_name_abstractive": "generalized/standardized task name",
+        "task_description": "exact quote describing the task",
+        "metrics_extractive": ["exact metric1 from text", "exact metric2 from text", ...],
+        "metrics_abstractive": ["standardized metric1", "standardized metric2", ...]
+    },
+    ...
+]
+
+6. PERFORMANCE_RESULTS: Extract all reported performance metrics.
+Format: [
+    {
+        "value": "exact performance value including units/confidence intervals if provided",
+        "metric": "exact metric name from EVALUATION_TASKS metrics_extractive",
+        "subject": "model name or human group name (use exact names from MODELS or HUMAN_GROUPS)"
+    },
+    ...
+]
+
+INPUT EXAMPLE:
+- Title: A Comparison of LLMs in Clinical Triage: Brief Study
+- Abstract: We evaluated ChatGPT and GEMINI for triaging complex maxillofacial trauma cases at a referral center. Using 10 standardized cases, we compared LLM recommendations against center guidelines. Results showed ChatGPT achieved 70% accuracy in examinations while GEMINI reached 50%. Additional metrics included diagnosis accuracy scores (GEMINI: 3.30, ChatGPT: 2.30) and recommendation relevance (GEMINI: 2.90, ChatGPT: 3.50).
+
+EXAMPLE OUTPUT:
+ANALYSIS_START
+<PAPER_TYPE>Clinical LLM Performance Evaluation - Original</PAPER_TYPE>
+<MODELS>
+["ChatGPT", "GEMINI"]
+</MODELS>
+<MULTIPLE_MODELS_USAGE>
+true
+</MULTIPLE_MODELS_USAGE>
+<HUMAN_GROUPS>
+[]
+</HUMAN_GROUPS>
+<EVALUATION_TASKS>
+[
+    {
+        "task_name_extractive": "triaging complex maxillofacial trauma cases",
+        "task_name_abstractive": "clinical trauma triage assessment",
+        "task_description": "triaging complex maxillofacial trauma cases at a referral center",
+        "metrics_extractive": ["accuracy in examinations", "diagnosis accuracy scores", "recommendation relevance"],
+        "metrics_abstractive": ["examination accuracy", "diagnostic performance", "recommendation quality"]
+    }
+]
+</EVALUATION_TASKS>
+<PERFORMANCE_RESULTS>
+[
+    {
+        "value": "70%",
+        "metric": "accuracy in examinations",
+        "subject": "ChatGPT"
+    },
+    {
+        "value": "50%",
+        "metric": "accuracy in examinations",
+        "subject": "GEMINI"
+    },
+    {
+        "value": "2.30",
+        "metric": "diagnosis accuracy scores",
+        "subject": "ChatGPT"
+    },
+    {
+        "value": "3.30",
+        "metric": "diagnosis accuracy scores",
+        "subject": "GEMINI"
+    },
+    {
+        "value": "3.50",
+        "metric": "recommendation relevance",
+        "subject": "ChatGPT"
+    },
+    {
+        "value": "2.90",
+        "metric": "recommendation relevance",
+        "subject": "GEMINI"
+    }
+]
+</PERFORMANCE_RESULTS>
+ANALYSIS_END
+
+IMPORTANT GUIDELINES:
+- Use exact quotes from the abstract where possible
+- Present all lists and dictionaries in valid Python syntax with double quotes for strings
+- Maintain consistent naming between sections (especially between EVALUATION_TASKS metrics_extractive and PERFORMANCE_RESULTS metric)
+- Return empty lists/dictionaries if information is not available and Empty sections should include their tags with empty Python lists/dictionaries
+- Include only information explicitly stated in the title or abstract
+- Each section must be enclosed in specific XML-style tags (e.g., <PAPER_TYPE>, <MODELS>, etc.)
+- Numbers should be represented as strings when they include units or special characters
+- For abstractive naming/metrics, ensure they are standardized and generalizable while accurately reflecting the original meaning
+- The analysis must start with "ANALYSIS_START" and end with "ANALYSIS_END" on separate lines.
+
+Now analyzing the following paper:
+
+- Title: {Title}
+- Abstract: {Abstract}
