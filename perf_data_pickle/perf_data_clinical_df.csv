@@ -1,0 +1,709 @@
+﻿,task_id,task_name,reference_idx,reference_title,model_name,total_count,score
+0,1,hand injuries classificaiton,0,AI in Hand Surgery: Assessing Large Language Models in the Classification and Management of Hand Injuries,gemini-1.5-pro,136,72.55
+1,1,hand injuries classificaiton,0,AI in Hand Surgery: Assessing Large Language Models in the Classification and Management of Hand Injuries,gpt-4-0125-preview,136,30.0
+2,10,student assessment question/ex...,38,Performance of large language artificial intelligence models on solving restorative dentistry and endodontics student assessments,gemini-1.0-pro,151,44.0
+3,10,student assessment question/ex...,38,Performance of large language artificial intelligence models on solving restorative dentistry and endodontics student assessments,gpt-3.5-turbo-1106,151,25.0
+4,10,student assessment question/ex...,38,Performance of large language artificial intelligence models on solving restorative dentistry and endodontics student assessments,gpt-4-1106-preview,151,62.0
+5,10,student assessment question/ex...,38,Performance of large language artificial intelligence models on solving restorative dentistry and endodontics student assessments,gpt-4o-2024-05-13,151,72.0
+6,100,responses to liver cancer surv...,337,"Large language models' responses to liver cancer surveillance, diagnosis, and management questions: accuracy, reliability, readability.",gemini-1.5-pro,60,57.0
+7,100,responses to liver cancer surv...,337,"Large language models' responses to liver cancer surveillance, diagnosis, and management questions: accuracy, reliability, readability.",gpt-3.5-turbo-0613,60,45.5
+8,100,responses to liver cancer surv...,337,"Large language models' responses to liver cancer surveillance, diagnosis, and management questions: accuracy, reliability, readability.",gpt-4-0613 (open),60,46.3
+9,101,Radiology report generation,340,Leveraging Professional Radiologists' Expertise to Enhance LLMs' Evaluation for AI-generated Radiology Reports,gpt-3.5-0301,100,16.0
+10,101,Radiology report generation,340,Leveraging Professional Radiologists' Expertise to Enhance LLMs' Evaluation for AI-generated Radiology Reports,gpt-4-0314,100,48.0
+11,102,Japanese Dental Society of Ane...,342,"Evaluating Large Language Models in Dental Anesthesiology: A Comparative Analysis of ChatGPT-4, Claude 3 Opus, and Gemini 1.0 on the Japanese Dental Society of Anesthesiology Board Certification Exam",claude-3-opus-20240229,295,47.4
+12,102,Japanese Dental Society of Ane...,342,"Evaluating Large Language Models in Dental Anesthesiology: A Comparative Analysis of ChatGPT-4, Claude 3 Opus, and Gemini 1.0 on the Japanese Dental Society of Anesthesiology Board Certification Exam",gemini-1.0-pro,295,30.3
+13,102,Japanese Dental Society of Ane...,342,"Evaluating Large Language Models in Dental Anesthesiology: A Comparative Analysis of ChatGPT-4, Claude 3 Opus, and Gemini 1.0 on the Japanese Dental Society of Anesthesiology Board Certification Exam",gpt-4-0125-preview,295,51.2
+14,103,Identifying Final Diagnoses Wi...,345,Evaluating ChatGPT-4?셲 Accuracy in Identifying Final Diagnoses Within Differential Diagnoses Compared With Those of Physicians: Experimental Study for Diagnostic Cases,gpt-4-0613,1176,47.0
+15,103,Identifying Final Diagnoses Wi...,345,Evaluating ChatGPT-4?셲 Accuracy in Identifying Final Diagnoses Within Differential Diagnoses Compared With Those of Physicians: Experimental Study for Diagnostic Cases,llama-2-70B,1176,63.0
+16,103,Identifying Final Diagnoses Wi...,345,Evaluating ChatGPT-4?셲 Accuracy in Identifying Final Diagnoses Within Differential Diagnoses Compared With Those of Physicians: Experimental Study for Diagnostic Cases,palm-2-540B,1176,67.0
+17,104,Potential Use in Clinical Card...,348,The Pulse of Artificial Intelligence in Cardiology: A Comprehensive Evaluation of State-of-the-art Large Language Models for Potential Use in Clinical Cardiology,gpt-3.5-0301,90,56.7
+18,104,Potential Use in Clinical Card...,348,The Pulse of Artificial Intelligence in Cardiology: A Comprehensive Evaluation of State-of-the-art Large Language Models for Potential Use in Clinical Cardiology,gpt-4-0314,90,84.4
+19,104,Potential Use in Clinical Card...,348,The Pulse of Artificial Intelligence in Cardiology: A Comprehensive Evaluation of State-of-the-art Large Language Models for Potential Use in Clinical Cardiology,palm-2-540B,90,55.6
+20,105,assessment of risk of bias in ...,351,Zero- and few-shot prompting of generative large language models provides weak assessment of risk of bias in clinical trials.,gpt-3.5-turbo-1106,1200,45.4
+21,105,assessment of risk of bias in ...,351,Zero- and few-shot prompting of generative large language models provides weak assessment of risk of bias in clinical trials.,med42-llama2-70B,1200,6.6
+22,105,assessment of risk of bias in ...,351,Zero- and few-shot prompting of generative large language models provides weak assessment of risk of bias in clinical trials.,meditron-70B,1200,44.2
+23,106,Diagnosis and Management of Ch...,357,Comparison of Large Language Models in Diagnosis and Management of Challenging Clinical Cases,claude-3-opus-20240229,20,48.3
+24,106,Diagnosis and Management of Ch...,357,Comparison of Large Language Models in Diagnosis and Management of Challenging Clinical Cases,claude-3-sonnet-20240229,20,41.7
+25,106,Diagnosis and Management of Ch...,357,Comparison of Large Language Models in Diagnosis and Management of Challenging Clinical Cases,gemini-1.5-pro,20,30.0
+26,106,Diagnosis and Management of Ch...,357,Comparison of Large Language Models in Diagnosis and Management of Challenging Clinical Cases,gpt-3.5-turbo-0125,20,50.0
+27,106,Diagnosis and Management of Ch...,357,Comparison of Large Language Models in Diagnosis and Management of Challenging Clinical Cases,gpt-4-turbo-2024-04-09,20,31.7
+28,106,Diagnosis and Management of Ch...,357,Comparison of Large Language Models in Diagnosis and Management of Challenging Clinical Cases,gpt-4o-2024-05-13 (open),20,49.15
+29,106,Diagnosis and Management of Ch...,357,Comparison of Large Language Models in Diagnosis and Management of Challenging Clinical Cases,perplexity,20,24.2
+30,107,Taiwan Psychiatric Licensing E...,359,"Comparing the performance of ChatGPT GPT??, Bard, and Llama?? in the Taiwan Psychiatric Licensing Examination and in differential diagnosis with multi?릀enter psychiatrists",gpt-4-0613,100,69.0
+31,107,Taiwan Psychiatric Licensing E...,359,"Comparing the performance of ChatGPT GPT??, Bard, and Llama?? in the Taiwan Psychiatric Licensing Examination and in differential diagnosis with multi?릀enter psychiatrists",llama-2-13B,100,25.0
+32,107,Taiwan Psychiatric Licensing E...,359,"Comparing the performance of ChatGPT GPT??, Bard, and Llama?? in the Taiwan Psychiatric Licensing Examination and in differential diagnosis with multi?릀enter psychiatrists",palm-2-540B,100,36.0
+33,108,standardized urology knowledge...,362,Performance of GPT-3.5 and GPT-4 on standardized urology knowledge assessment items in the United States: a descriptive study.,gpt-3.5-turbo-0125,700,30.9
+34,108,standardized urology knowledge...,362,Performance of GPT-3.5 and GPT-4 on standardized urology knowledge assessment items in the United States: a descriptive study.,gpt-4-0125-preview,700,44.4
+35,109,identifying cancer phenotypes ...,364,"Leveraging GPT-4 for identifying cancer phenotypes in electronic health records: a performance comparison between GPT-4, GPT-3.5-turbo, Flan-T5, Llama-3-8B, and spaCy?셲 rule-based and machine learning-based methods",gpt-3.5-0301,13646,84.75
+36,109,identifying cancer phenotypes ...,364,"Leveraging GPT-4 for identifying cancer phenotypes in electronic health records: a performance comparison between GPT-4, GPT-3.5-turbo, Flan-T5, Llama-3-8B, and spaCy?셲 rule-based and machine learning-based methods",gpt-4-0613,13646,87.0
+37,109,identifying cancer phenotypes ...,364,"Leveraging GPT-4 for identifying cancer phenotypes in electronic health records: a performance comparison between GPT-4, GPT-3.5-turbo, Flan-T5, Llama-3-8B, and spaCy?셲 rule-based and machine learning-based methods",llama-3-8B,13646,82.0
+38,11,quizzes for neuroradiology dia...,42,"Comparative Evaluation of AI Models Such as ChatGPT 3.5, ChatGPT 4.0, and Google Gemini in Neuroradiology Diagnostics",gemini-1.5-pro,262,55.73
+39,11,quizzes for neuroradiology dia...,42,"Comparative Evaluation of AI Models Such as ChatGPT 3.5, ChatGPT 4.0, and Google Gemini in Neuroradiology Diagnostics",gpt-3.5-turbo-0125,262,62.6
+40,11,quizzes for neuroradiology dia...,42,"Comparative Evaluation of AI Models Such as ChatGPT 3.5, ChatGPT 4.0, and Google Gemini in Neuroradiology Diagnostics",gpt-4-turbo-2024-04-09,262,64.89
+41,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,claude-3-opus-20240229,200,51.27
+42,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,claude-3-sonnet-20240229,200,41.9
+43,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,command-rplus,200,35.98
+44,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,gemini-1.5-pro,200,44.97
+45,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,gpt-4-0613,200,47.12
+46,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,gpt-4-1106-preview,200,53.075
+47,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,llama-2-7B,200,22.27
+48,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,llama-3-70B,200,48.99
+49,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,llama-3-8B,200,38.16
+50,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,mistral-7B-instruct-v0.3,200,27.85
+51,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,mixtral-8x22B,200,39.13
+52,110,Diagnosing Rare Diseases - rea...,367,Assessing DxGPT: Diagnosing Rare Diseases with Various Large Language Models,mixtral-8x7B,200,30.98
+53,111,Clinical Trial Matching: A Stu...,380,Utilizing Large Language Models for Enhanced Clinical Trial Matching: A Study on Automation in Patient Screening,gpt-3.5-turbo-1106,182,78.52
+54,111,Clinical Trial Matching: A Stu...,380,Utilizing Large Language Models for Enhanced Clinical Trial Matching: A Study on Automation in Patient Screening,gpt-4-1106-preview,40,85.89
+55,112,assessing decision-making abil...,382,Amplifying Chinese physicians??emphasis on patients??psychological states beyond urologic diagnoses with ChatGPT ??a multicenter cross-sectional study,gpt-3.5-turbo-0613,69,33.2
+56,112,assessing decision-making abil...,382,Amplifying Chinese physicians??emphasis on patients??psychological states beyond urologic diagnoses with ChatGPT ??a multicenter cross-sectional study,gpt-4-0613,69,44.8
+57,112,assessing decision-making abil...,382,Amplifying Chinese physicians??emphasis on patients??psychological states beyond urologic diagnoses with ChatGPT ??a multicenter cross-sectional study,human - doctors,69,39.0
+58,113,"suggesting initial diagnosis, ...",386,"Systematic analysis of ChatGPT, Google search and Llama 2 for clinical decision support tasks",gpt-3.5-turbo-0613,110,93.33
+59,113,"suggesting initial diagnosis, ...",386,"Systematic analysis of ChatGPT, Google search and Llama 2 for clinical decision support tasks",gpt-4-0613,110,96.67
+60,113,"suggesting initial diagnosis, ...",386,"Systematic analysis of ChatGPT, Google search and Llama 2 for clinical decision support tasks",llama-2-7B-chat,110,80.0
+61,114,Based on the guidelines of the...,390,Evidence-Based Potential of Generative Artificial Intelligence Large Language Models on Dental Avulsion: ChatGPT Versus Gemini.,gemini-1.5-pro,33,84.8
+62,114,Based on the guidelines of the...,390,Evidence-Based Potential of Generative Artificial Intelligence Large Language Models on Dental Avulsion: ChatGPT Versus Gemini.,gpt-4-turbo-2024-04-09,33,69.0
+63,115,neuroradiology clinical decisi...,392,A Comparative Evaluation of Large Language Model Utility in Neuroimaging Clinical Decision Support.,claude-1.1,24,79.2
+64,115,neuroradiology clinical decisi...,392,A Comparative Evaluation of Large Language Model Utility in Neuroimaging Clinical Decision Support.,gpt-3.5-turbo-0613,24,83.3
+65,115,neuroradiology clinical decisi...,392,A Comparative Evaluation of Large Language Model Utility in Neuroimaging Clinical Decision Support.,gpt-4-0613,24,95.8
+66,115,neuroradiology clinical decisi...,392,A Comparative Evaluation of Large Language Model Utility in Neuroimaging Clinical Decision Support.,gpt-4-0613 (open),24,58.3
+67,115,neuroradiology clinical decisi...,392,A Comparative Evaluation of Large Language Model Utility in Neuroimaging Clinical Decision Support.,llama-2-13B,24,20.8
+68,115,neuroradiology clinical decisi...,392,A Comparative Evaluation of Large Language Model Utility in Neuroimaging Clinical Decision Support.,palm-1-540B,24,54.2
+69,115,neuroradiology clinical decisi...,392,A Comparative Evaluation of Large Language Model Utility in Neuroimaging Clinical Decision Support.,perplexity,24,79.2
+70,116,diagnosing ophthalmic patholog...,395,A comparative study on the knowledge levels of artificial intelligence programs in diagnosing ophthalmic pathologies and intraocular tumors evaluated their superiority and potential utility.,gpt-4-0613 (open),36,63.9
+71,116,diagnosing ophthalmic patholog...,395,A comparative study on the knowledge levels of artificial intelligence programs in diagnosing ophthalmic pathologies and intraocular tumors evaluated their superiority and potential utility.,gpt-4-turbo-2024-04-09,36,58.6
+72,116,diagnosing ophthalmic patholog...,395,A comparative study on the knowledge levels of artificial intelligence programs in diagnosing ophthalmic pathologies and intraocular tumors evaluated their superiority and potential utility.,palm-2-540B,36,69.4
+73,117,Clinical Concept Extraction in...,399,BURExtract-Llama: An LLM for Clinical Concept Extraction in Breast Ultrasound Reports,gpt-4-turbo-2024-04-09,120,84.7
+74,117,Clinical Concept Extraction in...,399,BURExtract-Llama: An LLM for Clinical Concept Extraction in Breast Ultrasound Reports,llama-3-8B-instruct,120,79.4
+75,118,decision making for Emergency ...,401,COMPARISON OF PERFORMANCES OF OPEN ACCESS NATURAL LANGUAGE PROCESSING BASED CHATBOT APPLICATIONS IN TRIAGE DECISIONS,claude-1.1,50,86.5
+76,118,decision making for Emergency ...,401,COMPARISON OF PERFORMANCES OF OPEN ACCESS NATURAL LANGUAGE PROCESSING BASED CHATBOT APPLICATIONS IN TRIAGE DECISIONS,gpt-4-0613,50,89.9
+77,118,decision making for Emergency ...,401,COMPARISON OF PERFORMANCES OF OPEN ACCESS NATURAL LANGUAGE PROCESSING BASED CHATBOT APPLICATIONS IN TRIAGE DECISIONS,palm-2-540B,50,79.1
+78,119,Understanding of Emergency Med...,404,Can Large Language Models Provide Emergency Medical Help Where There Is No Ambulance? A Comparative Study on Large Language Model Understanding of Emergency Medical Scenarios in Resource-Constrained Settings,claude-3-opus-20240229,107,72.8
+79,119,Understanding of Emergency Med...,404,Can Large Language Models Provide Emergency Medical Help Where There Is No Ambulance? A Comparative Study on Large Language Model Understanding of Emergency Medical Scenarios in Resource-Constrained Settings,claude-3-sonnet-20240229,107,77.0
+80,119,Understanding of Emergency Med...,404,Can Large Language Models Provide Emergency Medical Help Where There Is No Ambulance? A Comparative Study on Large Language Model Understanding of Emergency Medical Scenarios in Resource-Constrained Settings,gemini-1.5-pro,107,71.5
+81,119,Understanding of Emergency Med...,404,Can Large Language Models Provide Emergency Medical Help Where There Is No Ambulance? A Comparative Study on Large Language Model Understanding of Emergency Medical Scenarios in Resource-Constrained Settings,gpt-4-0125-preview,107,69.4
+82,12,radiation oncology physics que...,45,"Evaluating large language models on a highly-specialized topic, radiation oncology physics",bloomz-7B,100,43.0
+83,12,radiation oncology physics que...,45,"Evaluating large language models on a highly-specialized topic, radiation oncology physics",gpt-3.5-turbo-0613,100,53.0
+84,12,radiation oncology physics que...,45,"Evaluating large language models on a highly-specialized topic, radiation oncology physics",gpt-4-0613,100,75.0
+85,12,radiation oncology physics que...,45,"Evaluating large language models on a highly-specialized topic, radiation oncology physics",human - doctors,100,68.0
+86,12,radiation oncology physics que...,45,"Evaluating large language models on a highly-specialized topic, radiation oncology physics",human - nonexperts,100,28.0
+87,12,radiation oncology physics que...,45,"Evaluating large language models on a highly-specialized topic, radiation oncology physics",palm-2-540B,100,33.0
+88,120,provide clinical recommendatio...,408,Evaluating the use of large language models to provide clinical recommendations in the Emergency Department,gpt-3.5-0301,10000,51.1
+89,120,provide clinical recommendatio...,408,Evaluating the use of large language models to provide clinical recommendations in the Emergency Department,gpt-4-1106-preview,10000,69.75
+90,120,provide clinical recommendatio...,408,Evaluating the use of large language models to provide clinical recommendations in the Emergency Department,human - doctors,10000,80.0
+91,121,103 questions from the Japan R...,411,"Performance evaluation of ChatGPT, GPT-4, and Bard on the official board examination of the Japan Radiology Society",gpt-3.5-0301,103,40.8
+92,121,103 questions from the Japan R...,411,"Performance evaluation of ChatGPT, GPT-4, and Bard on the official board examination of the Japan Radiology Society",gpt-4-0314,103,65.0
+93,121,103 questions from the Japan R...,411,"Performance evaluation of ChatGPT, GPT-4, and Bard on the official board examination of the Japan Radiology Society",palm-1-540B,103,38.8
+94,122,Structuring of Free-Text Surgi...,414,Precision Structuring of Free-Text Surgical Record for Enhanced Stroke Management: A Comparative Evaluation of Large Language Models,gemini-1.5-pro,382,94.18
+95,122,Structuring of Free-Text Surgi...,414,Precision Structuring of Free-Text Surgical Record for Enhanced Stroke Management: A Comparative Evaluation of Large Language Models,glm-4-9B,382,95.91
+96,122,Structuring of Free-Text Surgi...,414,Precision Structuring of Free-Text Surgical Record for Enhanced Stroke Management: A Comparative Evaluation of Large Language Models,gpt-3.5-turbo-0125,382,92.0
+97,122,Structuring of Free-Text Surgi...,414,Precision Structuring of Free-Text Surgical Record for Enhanced Stroke Management: A Comparative Evaluation of Large Language Models,gpt-4-turbo-2024-04-09,382,97.67
+98,122,Structuring of Free-Text Surgi...,414,Precision Structuring of Free-Text Surgical Record for Enhanced Stroke Management: A Comparative Evaluation of Large Language Models,qwen-2.5-max,382,95.58
+99,123,answering a set of 79 text-bas...,419,Comparative Accuracy of ChatGPT 4.0 and Google Gemini in Answering Pediatric Radiology Text-Based Questions,gemini-1.5-pro,79,68.4
+100,123,answering a set of 79 text-bas...,419,Comparative Accuracy of ChatGPT 4.0 and Google Gemini in Answering Pediatric Radiology Text-Based Questions,gpt-4-turbo-2024-04-09,79,83.5
+101,124,provide postoperative care rec...,421,Artificial Intelligence in Postoperative Care: Assessing Large Language Models for Patient Recommendations in Plastic Surgery,gemini-1.0-pro,32,81.2
+102,124,provide postoperative care rec...,421,Artificial Intelligence in Postoperative Care: Assessing Large Language Models for Patient Recommendations in Plastic Surgery,gpt-3.5-turbo-1106,32,83.6
+103,124,provide postoperative care rec...,421,Artificial Intelligence in Postoperative Care: Assessing Large Language Models for Patient Recommendations in Plastic Surgery,gpt-4-1106-preview,32,83.2
+104,125,"151 multiple-choice questions,...",424,Large language models (LLMs) in radiology exams for medical students: Performance and consequences.,gpt-3.5-turbo-0613,151,67.6
+105,125,"151 multiple-choice questions,...",424,Large language models (LLMs) in radiology exams for medical students: Performance and consequences.,gpt-4-0613,151,88.1
+106,125,"151 multiple-choice questions,...",424,Large language models (LLMs) in radiology exams for medical students: Performance and consequences.,human - doctors,151,76.3
+107,126,Caregivers of Pediatric Cancer...,427,Can Large Language Models Aid Caregivers of Pediatric Cancer Patients in Information Seeking? A Cross?륲ectional Investigation,gemini-1.0-pro,26,51.2
+108,126,Caregivers of Pediatric Cancer...,427,Can Large Language Models Aid Caregivers of Pediatric Cancer Patients in Information Seeking? A Cross?륲ectional Investigation,gpt-4-1106-preview,26,54.2
+109,126,Caregivers of Pediatric Cancer...,427,Can Large Language Models Aid Caregivers of Pediatric Cancer Patients in Information Seeking? A Cross?륲ectional Investigation,gpt-4-1106-preview (open),26,46.6
+110,127,Identifying Interpretable Ling...,430,Leveraging Large Language Models for Identifying Interpretable Linguistic Markers and Enhancing Alzheimer's Disease Diagnostics,gpt-3.5-turbo-0125,166,68.0
+111,127,Identifying Interpretable Ling...,430,Leveraging Large Language Models for Identifying Interpretable Linguistic Markers and Enhancing Alzheimer's Disease Diagnostics,gpt-4-turbo-2024-04-09,166,38.0
+112,128,concerning the management and ...,432,Assessing the Role of the Generative Pretrained Transformer (GPT) in Alzheimer?셲 Disease Management: Comparative Study of Neurologist- and Artificial Intelligence?밎enerated Responses,gpt-3.5-turbo-0125,112,82.0
+113,128,concerning the management and ...,432,Assessing the Role of the Generative Pretrained Transformer (GPT) in Alzheimer?셲 Disease Management: Comparative Study of Neurologist- and Artificial Intelligence?밎enerated Responses,gpt-4-turbo-2024-04-09,112,90.0
+114,128,concerning the management and ...,432,Assessing the Role of the Generative Pretrained Transformer (GPT) in Alzheimer?셲 Disease Management: Comparative Study of Neurologist- and Artificial Intelligence?밎enerated Responses,human - doctors,112,74.0
+115,129,the Hand Surgery Self-Assessme...,436,The Comparative Performance of Large Language Models on the Hand Surgery Self-Assessment Examination.,gpt-4-0613,999,66.5
+116,129,the Hand Surgery Self-Assessme...,436,The Comparative Performance of Large Language Models on the Hand Surgery Self-Assessment Examination.,gpt-4-0613 (open),999,75.3
+117,13,vignettes in physiology,51,"Performance of Large Language Models (ChatGPT, Bing Search, and Google Bard) in Solving Case Vignettes in Physiology",gpt-3.5-turbo-0613,77,79.75
+118,13,vignettes in physiology,51,"Performance of Large Language Models (ChatGPT, Bing Search, and Google Bard) in Solving Case Vignettes in Physiology",gpt-4-0613 (open),77,53.75
+119,13,vignettes in physiology,51,"Performance of Large Language Models (ChatGPT, Bing Search, and Google Bard) in Solving Case Vignettes in Physiology",palm-2-540B,77,72.75
+120,130,the potential to support clini...,438,A context-based chatbot surpasses trained radiologists and generic ChatGPT in following the ACR appropriateness guidelines,gpt-3.5-0301,50,70.0
+121,130,the potential to support clini...,438,A context-based chatbot surpasses trained radiologists and generic ChatGPT in following the ACR appropriateness guidelines,gpt-4-0314,50,79.0
+122,130,the potential to support clini...,438,A context-based chatbot surpasses trained radiologists and generic ChatGPT in following the ACR appropriateness guidelines,human - doctors,50,66.0
+123,131,evaluating first aid advice fo...,441,All You Need Is Context: Clinician Evaluations of various iterations of a Large Language Model-Based First Aid Decision Support Tool in Ghana,claude-3-sonnet-20240229,72,66.0
+124,131,evaluating first aid advice fo...,441,All You Need Is Context: Clinician Evaluations of various iterations of a Large Language Model-Based First Aid Decision Support Tool in Ghana,gemini-1.5-pro,72,72.0
+125,131,evaluating first aid advice fo...,441,All You Need Is Context: Clinician Evaluations of various iterations of a Large Language Model-Based First Aid Decision Support Tool in Ghana,gpt-4-1106-preview,72,68.0
+126,132,assess the diagnostic capabili...,444,An evaluation framework for clinical use of large language models in patient interaction tasks.,gpt-3.5-turbo-1106,2000,65.7
+127,132,assess the diagnostic capabili...,444,An evaluation framework for clinical use of large language models in patient interaction tasks.,gpt-4-1106-preview,2000,82.0
+128,132,assess the diagnostic capabili...,444,An evaluation framework for clinical use of large language models in patient interaction tasks.,llama-2-7B,2000,39.5
+129,132,assess the diagnostic capabili...,444,An evaluation framework for clinical use of large language models in patient interaction tasks.,mistral-7B-instruct-v0.2,2000,63.7
+130,133,assess the diagnostic capabili...,448,An evaluation framework for clinical use of large language models in patient interaction tasks.,gpt-3.5-turbo-1106,2000,46.7
+131,133,assess the diagnostic capabili...,448,An evaluation framework for clinical use of large language models in patient interaction tasks.,gpt-4-1106-preview,2000,62.7
+132,133,assess the diagnostic capabili...,448,An evaluation framework for clinical use of large language models in patient interaction tasks.,llama-2-7B,2000,31.9
+133,133,assess the diagnostic capabili...,448,An evaluation framework for clinical use of large language models in patient interaction tasks.,mistral-7B-instruct-v0.2,2000,42.6
+134,134,assess the diagnostic capabili...,452,An evaluation framework for clinical use of large language models in patient interaction tasks.,gpt-3.5-turbo-1106,2000,50.7
+135,134,assess the diagnostic capabili...,452,An evaluation framework for clinical use of large language models in patient interaction tasks.,gpt-4-1106-preview,2000,66.9
+136,134,assess the diagnostic capabili...,452,An evaluation framework for clinical use of large language models in patient interaction tasks.,llama-2-7B,2000,33.5
+137,134,assess the diagnostic capabili...,452,An evaluation framework for clinical use of large language models in patient interaction tasks.,mistral-7B-instruct-v0.2,2000,51.3
+138,135,radiation oncology in-training...,456,Benchmarking ChatGPT-4 on a radiation oncology in-training exam and Red Journal Gray Zone cases: potentials and challenges for ai-assisted medical education and decision making in radiation oncology,gpt-3.5-0301,315,62.05
+139,135,radiation oncology in-training...,456,Benchmarking ChatGPT-4 on a radiation oncology in-training exam and Red Journal Gray Zone cases: potentials and challenges for ai-assisted medical education and decision making in radiation oncology,gpt-4-0314,315,78.77
+140,136,delivering primary prevention ...,458,The Role of Artificial Intelligence in the Primary Prevention of Common Musculoskeletal Diseases,gpt-3.5-turbo-0125,30,80.8
+141,136,delivering primary prevention ...,458,The Role of Artificial Intelligence in the Primary Prevention of Common Musculoskeletal Diseases,gpt-4-turbo-2024-04-09,30,87.8
+142,137,Ophthalmology Knowledge Assess...,460,Improved Performance of ChatGPT-4 on the OKAP Examination: A Comparative Study with ChatGPT-3.5,gpt-3.5-0301,180,57.0
+143,137,Ophthalmology Knowledge Assess...,460,Improved Performance of ChatGPT-4 on the OKAP Examination: A Comparative Study with ChatGPT-3.5,gpt-4-0314,180,81.0
+144,138,Seven paediatric cardiologists...,462,A guideline-informed language model for paediatric cardiology demonstrates high performance in answering complex medical questions,gpt-3.5-turbo-0125,72,64.7
+145,138,Seven paediatric cardiologists...,462,A guideline-informed language model for paediatric cardiology demonstrates high performance in answering complex medical questions,gpt-4-0125-preview,72,80.0
+146,138,Seven paediatric cardiologists...,462,A guideline-informed language model for paediatric cardiology demonstrates high performance in answering complex medical questions,gpt-4-turbo-2024-04-09,72,70.1
+147,139,questions from the 2023 Americ...,465,Evaluating AI Proficiency in Nuclear Cardiology: Large Language Models take on the Board Preparation Exam,gemini-1.0-pro,168,40.5
+148,139,questions from the 2023 Americ...,465,Evaluating AI Proficiency in Nuclear Cardiology: Large Language Models take on the Board Preparation Exam,gpt-4-0125-preview,168,58.75
+149,139,questions from the 2023 Americ...,465,Evaluating AI Proficiency in Nuclear Cardiology: Large Language Models take on the Board Preparation Exam,gpt-4o-2024-05-13,168,63.1
+150,14,Resident Surgeons in the Otorh...,52,"Evaluating the Performance of ChatGPT, Gemini, and Bing Compared with Resident Surgeons in the Otorhinolaryngology In-service Training Examination",gemini-1.0-pro,316,40.5
+151,14,Resident Surgeons in the Otorh...,52,"Evaluating the Performance of ChatGPT, Gemini, and Bing Compared with Resident Surgeons in the Otorhinolaryngology In-service Training Examination",gpt-4-0314,316,54.75
+152,14,Resident Surgeons in the Otorh...,52,"Evaluating the Performance of ChatGPT, Gemini, and Bing Compared with Resident Surgeons in the Otorhinolaryngology In-service Training Examination",gpt-4-0314 (open),316,37.0
+153,14,Resident Surgeons in the Otorh...,52,"Evaluating the Performance of ChatGPT, Gemini, and Bing Compared with Resident Surgeons in the Otorhinolaryngology In-service Training Examination",human - doctors,316,61.2
+154,140,rare disease phenotyping from ...,469,A hybrid framework with large language models for rare disease phenotyping,biomistral-7B,362,52.19
+155,140,rare disease phenotyping from ...,469,A hybrid framework with large language models for rare disease phenotyping,llama-3-8B,362,68.34
+156,140,rare disease phenotyping from ...,469,A hybrid framework with large language models for rare disease phenotyping,mistral-7B-instruct-v0.2,362,57.43
+157,140,rare disease phenotyping from ...,469,A hybrid framework with large language models for rare disease phenotyping,phi-3-mini,362,69.21
+158,141,depressionanxiety comorbidity ...,473,Still Not Quite There! Evaluating Large Language Models for Comorbid Mental Health Diagnosis,gpt-3.5-turbo-0125,2876,48.95
+159,141,depressionanxiety comorbidity ...,473,Still Not Quite There! Evaluating Large Language Models for Comorbid Mental Health Diagnosis,gpt-4-turbo-2024-04-09,2876,73.65
+160,141,depressionanxiety comorbidity ...,473,Still Not Quite There! Evaluating Large Language Models for Comorbid Mental Health Diagnosis,llama-2-13B-chat,2876,48.2
+161,141,depressionanxiety comorbidity ...,473,Still Not Quite There! Evaluating Large Language Models for Comorbid Mental Health Diagnosis,llama-2-7B-chat,2876,27.5
+162,142,Extraction of International Cl...,477,Benchmarking Large Language Models for Extraction of International Classification of Diseases Codes from Clinical Documentation,claude-2.0,165,9.9
+163,142,Extraction of International Cl...,477,Benchmarking Large Language Models for Extraction of International Classification of Diseases Codes from Clinical Documentation,claude-3-sonnet-20240229,165,12.7
+164,142,Extraction of International Cl...,477,Benchmarking Large Language Models for Extraction of International Classification of Diseases Codes from Clinical Documentation,gemini-1.0-ultra,165,12.2
+165,142,Extraction of International Cl...,477,Benchmarking Large Language Models for Extraction of International Classification of Diseases Codes from Clinical Documentation,gpt-3.5-turbo-0125,165,12.4
+166,142,Extraction of International Cl...,477,Benchmarking Large Language Models for Extraction of International Classification of Diseases Codes from Clinical Documentation,gpt-4-0125-preview,165,15.2
+167,142,Extraction of International Cl...,477,Benchmarking Large Language Models for Extraction of International Classification of Diseases Codes from Clinical Documentation,llama-2-70B,165,1.4
+168,143,Translating radiology reports ...,493,"Translating radiology reports into plain language using ChatGPT and GPT-4 with prompt learning: results, limitations, and potential",gpt-3.5-0301,138,55.2
+169,143,Translating radiology reports ...,493,"Translating radiology reports into plain language using ChatGPT and GPT-4 with prompt learning: results, limitations, and potential",gpt-4-0314,138,73.6
+170,144,clinical decision-making for t...,497,Clinical application potential of large language model: a study based on thyroid nodules.,gpt-3.5-turbo-0613,562,77.6
+171,144,clinical decision-making for t...,497,Clinical application potential of large language model: a study based on thyroid nodules.,gpt-4-0613 (open),562,77.39
+172,144,clinical decision-making for t...,497,Clinical application potential of large language model: a study based on thyroid nodules.,human - doctors,562,94.19
+173,145,"the ""Case of the Week"" radiolo...",498,"""This Is a Quiz??Premise Input: A Key to Unlocking Higher Diagnostic Accuracy in Large Language Models",claude-3-5-sonnet-20240622,150,41.3
+174,145,"the ""Case of the Week"" radiolo...",498,"""This Is a Quiz??Premise Input: A Key to Unlocking Higher Diagnostic Accuracy in Large Language Models",gpt-4o-2024-05-13,150,22.0
+175,146,the Written German Medical Lic...,500,Comparison of the Performance of GPT-3.5 and GPT-4 With That of Medical Students on the Written German Medical Licensing Examination: Observational Study,gpt-3.5-0301,937,58.0
+176,146,the Written German Medical Lic...,500,Comparison of the Performance of GPT-3.5 and GPT-4 With That of Medical Students on the Written German Medical Licensing Examination: Observational Study,gpt-4-0314,937,85.0
+177,147,Cataract Care Information Prov...,502,Assessment of Large Language Models in Cataract Care Information Provision: A Quantitative Comparison.,gpt-3.5-turbo-1106,46,94.4
+178,147,Cataract Care Information Prov...,502,Assessment of Large Language Models in Cataract Care Information Provision: A Quantitative Comparison.,gpt-4-1106-preview (open),46,92.8
+179,147,Cataract Care Information Prov...,502,Assessment of Large Language Models in Cataract Care Information Provision: A Quantitative Comparison.,gpt-4o-2024-05-13,46,96.3
+180,147,Cataract Care Information Prov...,502,Assessment of Large Language Models in Cataract Care Information Provision: A Quantitative Comparison.,llama-2-7B,46,86.7
+181,147,Cataract Care Information Prov...,502,Assessment of Large Language Models in Cataract Care Information Provision: A Quantitative Comparison.,palm-2-540B,46,96.3
+182,148,Korean emergency medicine boar...,504,"Comparison of the problem-solving performance of ChatGPT-3.5, ChatGPT-4, Bing Chat, and Bard for the Korean emergency medicine board examination question bank",gpt-3.5-turbo-0613,123,56.9
+183,148,Korean emergency medicine boar...,504,"Comparison of the problem-solving performance of ChatGPT-3.5, ChatGPT-4, Bing Chat, and Bard for the Korean emergency medicine board examination question bank",gpt-4-0613,123,75.6
+184,148,Korean emergency medicine boar...,504,"Comparison of the problem-solving performance of ChatGPT-3.5, ChatGPT-4, Bing Chat, and Bard for the Korean emergency medicine board examination question bank",gpt-4-0613 (open),123,70.7
+185,148,Korean emergency medicine boar...,504,"Comparison of the problem-solving performance of ChatGPT-3.5, ChatGPT-4, Bing Chat, and Bard for the Korean emergency medicine board examination question bank",palm-2-540B,123,51.2
+186,149,Structuring medication signetu...,507,Structuring medication signeturs as a language regression task: comparison of zero- and few-shot GPT with fine-tuned models,gpt-3.5-turbo-1106,22806,66.1
+187,149,Structuring medication signetu...,507,Structuring medication signeturs as a language regression task: comparison of zero- and few-shot GPT with fine-tuned models,gpt-4-1106-preview,22806,78.7
+188,15,thoracic surgery questions fro...,54,Unleashing the Power of Language Models in Clinical Settings: A Trailblazing Evaluation Unveiling Novel Test Design,claude-1.1,56,38.0
+189,15,thoracic surgery questions fro...,54,Unleashing the Power of Language Models in Clinical Settings: A Trailblazing Evaluation Unveiling Novel Test Design,gpt-3.5-turbo-0613,56,37.67
+190,15,thoracic surgery questions fro...,54,Unleashing the Power of Language Models in Clinical Settings: A Trailblazing Evaluation Unveiling Novel Test Design,gpt-4-0613,56,48.0
+191,15,thoracic surgery questions fro...,54,Unleashing the Power of Language Models in Clinical Settings: A Trailblazing Evaluation Unveiling Novel Test Design,human - doctors,56,59.33
+192,15,thoracic surgery questions fro...,54,Unleashing the Power of Language Models in Clinical Settings: A Trailblazing Evaluation Unveiling Novel Test Design,human - nonexperts,56,19.67
+193,150,Generating Responses to Patien...,509,Leveraging Large Language Models for Generating Responses to Patient Messages,gpt-3.5-0301,40,87.0
+194,150,Generating Responses to Patien...,509,Leveraging Large Language Models for Generating Responses to Patient Messages,gpt-4-0314,40,86.0
+195,151,evaluating the rheumatology qu...,511,Harnessing ChatGPT and GPT-4 for evaluating the rheumatology questions of the Spanish access exam to specialized medical training,gpt-3.5-0301,145,78.215
+196,151,evaluating the rheumatology qu...,511,Harnessing ChatGPT and GPT-4 for evaluating the rheumatology questions of the Spanish access exam to specialized medical training,gpt-4-0314,145,93.555
+197,152,the diagnostic accuracy 99 of ...,515,Evaluating and Mitigating Limitations of Large Language Models in Clinical Decision Making,clinicalcamel-1-70B,80,73.0
+198,152,the diagnostic accuracy 99 of ...,515,Evaluating and Mitigating Limitations of Large Language Models in Clinical Decision Making,human - doctors,80,89.0
+199,152,the diagnostic accuracy 99 of ...,515,Evaluating and Mitigating Limitations of Large Language Models in Clinical Decision Making,llama-2-70B,80,66.0
+200,152,the diagnostic accuracy 99 of ...,515,Evaluating and Mitigating Limitations of Large Language Models in Clinical Decision Making,meditron-70B,80,60.0
+201,152,the diagnostic accuracy 99 of ...,515,Evaluating and Mitigating Limitations of Large Language Models in Clinical Decision Making,wizardlm-1-70B,80,67.0
+202,153,official high‑grade exams of t...,520,"Can large language models pass official high-grade exams of the European Society of Neuroradiology courses? A direct comparison between OpenAI chatGPT 3.5, OpenAI GPT4 and Google Bard.",gpt-3.5-turbo-0613,180,54.0
+203,153,official high‑grade exams of t...,520,"Can large language models pass official high-grade exams of the European Society of Neuroradiology courses? A direct comparison between OpenAI chatGPT 3.5, OpenAI GPT4 and Google Bard.",gpt-4-0613,180,70.0
+204,153,official high‑grade exams of t...,520,"Can large language models pass official high-grade exams of the European Society of Neuroradiology courses? A direct comparison between OpenAI chatGPT 3.5, OpenAI GPT4 and Google Bard.",palm-2-540B,180,36.0
+205,154,identification of social and b...,523,Large-scale identification of social and behavioral determinants of health from clinical notes: comparison of Latent Semantic Indexing and Generative Pretrained Transformer (GPT) models,gpt-3.5-turbo-1106,352,54.0
+206,154,identification of social and b...,523,Large-scale identification of social and behavioral determinants of health from clinical notes: comparison of Latent Semantic Indexing and Generative Pretrained Transformer (GPT) models,gpt-4-1106-preview,352,80.0
+207,155,Providing Triage for Maxillofa...,525,The Role of Large Language Models (LLMs) in Providing Triage for Maxillofacial Trauma Cases: A Preliminary Study,gemini-1.5-pro,100,55.8
+208,155,Providing Triage for Maxillofa...,525,The Role of Large Language Models (LLMs) in Providing Triage for Maxillofacial Trauma Cases: A Preliminary Study,gpt-4-0125-preview,100,52.8
+209,156,Dermoscopic Image Analysis for...,527,Claude 3 Opus and ChatGPT With GPT-4 in Dermoscopic Image Analysis for Melanoma Diagnosis: Comparative Performance Analysis,claude-3-opus-20240229,100,56.0
+210,156,Dermoscopic Image Analysis for...,527,Claude 3 Opus and ChatGPT With GPT-4 in Dermoscopic Image Analysis for Melanoma Diagnosis: Comparative Performance Analysis,gpt-3.5-turbo-0125,100,48.0
+211,157,managing the rehabilitation co...,531,Use of large language model-based chatbots in managing the rehabilitation concerns and education needs of outpatient stroke survivors and caregivers,gpt-4-0125-preview,246,65.8
+212,157,managing the rehabilitation co...,531,Use of large language model-based chatbots in managing the rehabilitation concerns and education needs of outpatient stroke survivors and caregivers,palm-2-540B,246,75.8
+213,158,rheumatology board‑level quest...,533,Comparative performance of artificial intelligence models in rheumatology board-level questions: evaluating Google Gemini and ChatGPT-4o.,gemini-1.5-pro,420,60.2
+214,158,rheumatology board‑level quest...,533,Comparative performance of artificial intelligence models in rheumatology board-level questions: evaluating Google Gemini and ChatGPT-4o.,gpt-4o-2024-05-13,420,86.9
+215,159,the Emergency Medicine Special...,535,"Custom GPTs Enhancing Performance and Evidence Compared with GPT-3.5, GPT-4, and GPT-4o? A Study on the Emergency Medicine Specialist Examination",gpt-3.5-0301,200,38.5
+216,159,the Emergency Medicine Special...,535,"Custom GPTs Enhancing Performance and Evidence Compared with GPT-3.5, GPT-4, and GPT-4o? A Study on the Emergency Medicine Specialist Examination",gpt-4-0314,200,52.5
+217,159,the Emergency Medicine Special...,535,"Custom GPTs Enhancing Performance and Evidence Compared with GPT-3.5, GPT-4, and GPT-4o? A Study on the Emergency Medicine Specialist Examination",gpt-4o-2024-05-13,200,69.0
+218,16,ophthalmology questions,59,Large language models approach expert-level clinical knowledge and reasoning in ophthalmology: A head-to-head cross-sectional study,gpt-3.5-0301,347,48.41
+219,16,ophthalmology questions,59,Large language models approach expert-level clinical knowledge and reasoning in ophthalmology: A head-to-head cross-sectional study,gpt-4-0314,347,61.7
+220,16,ophthalmology questions,59,Large language models approach expert-level clinical knowledge and reasoning in ophthalmology: A head-to-head cross-sectional study,human - doctors,347,62.333333333333336
+221,16,ophthalmology questions,59,Large language models approach expert-level clinical knowledge and reasoning in ophthalmology: A head-to-head cross-sectional study,llama-1-7B,347,32.0
+222,16,ophthalmology questions,59,Large language models approach expert-level clinical knowledge and reasoning in ophthalmology: A head-to-head cross-sectional study,palm-2-540B,347,56.0
+223,160,A multidisciplinary tumor boar...,538,"Proof-of-concept study of a small language model chatbot for breast cancer decision support ??a transparent, source-controlled, explainable and data-secure approach",gpt-3.5-turbo-0125,100,90.0
+224,160,A multidisciplinary tumor boar...,538,"Proof-of-concept study of a small language model chatbot for breast cancer decision support ??a transparent, source-controlled, explainable and data-secure approach",gpt-4-0125-preview,100,83.0
+225,161,breast cancer quiz questions -...,540,"How do large language models answer breast cancer quiz questions? A comparative study of GPT-3.5, GPT-4 and Google Gemini.",gemini-1.5-pro,60,80.0
+226,161,breast cancer quiz questions -...,540,"How do large language models answer breast cancer quiz questions? A comparative study of GPT-3.5, GPT-4 and Google Gemini.",gpt-3.5-turbo-0125,60,90.0
+227,161,breast cancer quiz questions -...,540,"How do large language models answer breast cancer quiz questions? A comparative study of GPT-3.5, GPT-4 and Google Gemini.",gpt-4-0125-preview,60,95.0
+228,162,Oncology Data Inference from R...,543,Assessing Large Language Models for Oncology Data Inference from Radiology Reports,gemma-1-7B,203,57.0
+229,162,Oncology Data Inference from R...,543,Assessing Large Language Models for Oncology Data Inference from Radiology Reports,gpt-3.5-turbo-1106,203,57.0
+230,162,Oncology Data Inference from R...,543,Assessing Large Language Models for Oncology Data Inference from Radiology Reports,gpt-4-1106-preview,203,68.0
+231,162,Oncology Data Inference from R...,543,Assessing Large Language Models for Oncology Data Inference from Radiology Reports,llama-2-7B,203,19.0
+232,162,Oncology Data Inference from R...,543,Assessing Large Language Models for Oncology Data Inference from Radiology Reports,llama-3-8B,203,45.0
+233,162,Oncology Data Inference from R...,543,Assessing Large Language Models for Oncology Data Inference from Radiology Reports,mistral-7B-instruct-v0.3,203,69.0
+234,163,multiple-choice questions from...,549,Comparison of Gemini Advanced and ChatGPT 4.0?셲 Performances on the Ophthalmology Resident Ophthalmic Knowledge Assessment Program (OKAP) Examination Review Question Banks,gemini-1.0-ultra,259,46.72
+235,163,multiple-choice questions from...,549,Comparison of Gemini Advanced and ChatGPT 4.0?셲 Performances on the Ophthalmology Resident Ophthalmic Knowledge Assessment Program (OKAP) Examination Review Question Banks,gpt-4-turbo-2024-04-09,259,57.14
+236,164,Answering Patients’ Questions ...,551,Accuracy and Consistency of Online Chat-based Artificial Intelligence Platforms in Answering Patients Questions on Heart Failure,gpt-3.5-turbo-0613,30,90.0
+237,164,Answering Patients’ Questions ...,551,Accuracy and Consistency of Online Chat-based Artificial Intelligence Platforms in Answering Patients Questions on Heart Failure,palm-2-540B,30,77.0
+238,165,Recommendations for initial di...,553,Recommendations for initial diabetic retinopathy screening of diabetic patients using large language model-based artificial intelligence in real-life case scenarios,gpt-3.5-turbo-1106,20,24.0
+239,165,Recommendations for initial di...,553,Recommendations for initial diabetic retinopathy screening of diabetic patients using large language model-based artificial intelligence in real-life case scenarios,gpt-4-1106-preview,20,37.0
+240,165,Recommendations for initial di...,553,Recommendations for initial diabetic retinopathy screening of diabetic patients using large language model-based artificial intelligence in real-life case scenarios,gpt-4-1106-preview (open),20,25.0
+241,166,the UK Neurology Specialty Cer...,556,Evaluating the limits of AI in medical specialisation: ChatGPT?셲 performance on the UK Neurology Specialty Certificate Examination,gpt-3.5-0301,69,42.0
+242,166,the UK Neurology Specialty Cer...,556,Evaluating the limits of AI in medical specialisation: ChatGPT?셲 performance on the UK Neurology Specialty Certificate Examination,gpt-4-0314,69,57.0
+243,166,the UK Neurology Specialty Cer...,556,Evaluating the limits of AI in medical specialisation: ChatGPT?셲 performance on the UK Neurology Specialty Certificate Examination,human - doctors,69,58.0
+244,167,Answering Radiology Text-Based...,559,ChatGPT-4 Turbo and Meta?셲 LLaMA 3.1: A Relative Analysis of Answering Radiology Text-Based Questions,gpt-4-turbo-2024-04-09,79,88.6
+245,167,Answering Radiology Text-Based...,559,ChatGPT-4 Turbo and Meta?셲 LLaMA 3.1: A Relative Analysis of Answering Radiology Text-Based Questions,llama-3.1-8B-instruct,79,77.2
+246,168,Abstract Complex Social Determ...,561,Using Large Language Models to Abstract Complex Social Determinants of Health From Original and Deidentified Medical Notes: Development and Validation Study,gpt-3.5-turbo-0613,539,74.3
+247,168,Abstract Complex Social Determ...,561,Using Large Language Models to Abstract Complex Social Determinants of Health From Original and Deidentified Medical Notes: Development and Validation Study,gpt-4-0613,539,86.7
+248,168,Abstract Complex Social Determ...,561,Using Large Language Models to Abstract Complex Social Determinants of Health From Original and Deidentified Medical Notes: Development and Validation Study,human - doctors,539,81.2
+249,169,2022 American College of Gastr...,564,Multimodal Large Language Model Passes Specialty Board Examination and Surpasses Human Test-Taker Scores: A Comparative Analysis Examining the Stepwise Impact of Model Prompting Strategies on Performance,gemini-1.5-pro,300,50.0
+250,169,2022 American College of Gastr...,564,Multimodal Large Language Model Passes Specialty Board Examination and Surpasses Human Test-Taker Scores: A Comparative Analysis Examining the Stepwise Impact of Model Prompting Strategies on Performance,gpt-4-turbo-2024-04-09,300,63.0
+251,169,2022 American College of Gastr...,564,Multimodal Large Language Model Passes Specialty Board Examination and Surpasses Human Test-Taker Scores: A Comparative Analysis Examining the Stepwise Impact of Model Prompting Strategies on Performance,human - doctors,300,75.0
+252,17,osteoarthritis examination bas...,66,Evaluating and Enhancing Large Language Models??Performance in Domain-Specific Medicine: Development and Usability Study With DocOA,gpt-3.5-turbo-0125,778,16.0
+253,17,osteoarthritis examination bas...,66,Evaluating and Enhancing Large Language Models??Performance in Domain-Specific Medicine: Development and Usability Study With DocOA,gpt-3.5-turbo-0125,1200,36.2
+254,17,osteoarthritis examination bas...,66,Evaluating and Enhancing Large Language Models??Performance in Domain-Specific Medicine: Development and Usability Study With DocOA,gpt-4-turbo-2024-04-09,778,24.0
+255,17,osteoarthritis examination bas...,66,Evaluating and Enhancing Large Language Models??Performance in Domain-Specific Medicine: Development and Usability Study With DocOA,gpt-4-turbo-2024-04-09,1200,37.224999999999994
+256,170,Integrated National Board Dent...,567,Comparing the dental knowledge of large language models.,claude-2.0,199,54.77
+257,170,Integrated National Board Dent...,567,Comparing the dental knowledge of large language models.,gpt-4-0125-preview,199,75.88
+258,170,Integrated National Board Dent...,567,Comparing the dental knowledge of large language models.,mistral-medium,199,66.83
+259,171,the 2023–2024 ‘In-Service Exam...,570,Development and Comparative Evaluation of a Reinstructed GPT-4o Model Specialized in Periodontology.,gemini-1.5-pro,71,57.5
+260,171,the 2023–2024 ‘In-Service Exam...,570,Development and Comparative Evaluation of a Reinstructed GPT-4o Model Specialized in Periodontology.,gpt-3.5-turbo-0125,71,47.4
+261,171,the 2023–2024 ‘In-Service Exam...,570,Development and Comparative Evaluation of a Reinstructed GPT-4o Model Specialized in Periodontology.,gpt-4-0125-preview,71,61.7
+262,171,the 2023–2024 ‘In-Service Exam...,570,Development and Comparative Evaluation of a Reinstructed GPT-4o Model Specialized in Periodontology.,gpt-4o-2024-05-13,71,71.2
+263,172,Section Identifiers Excel on E...,579,LLM-Based Section Identifiers Excel on Open Source but Stumble in Real World Applications,gpt-4-0125-preview,2198,73.43
+264,172,Section Identifiers Excel on E...,579,LLM-Based Section Identifiers Excel on Open Source but Stumble in Real World Applications,llama-2-7B,2198,38.97
+265,172,Section Identifiers Excel on E...,579,LLM-Based Section Identifiers Excel on Open Source but Stumble in Real World Applications,mistral-7B-instruct-v0.3,2198,15.14
+266,173,Generate Outpatient Clinic Let...,582,Can Large Language Models Generate Outpatient Clinic Letters at First Consultation That Incorporate Complication Profiles From UK and USA Aesthetic Plastic Surgery Associations?,gpt-3.5-0301,44,49.0
+267,173,Generate Outpatient Clinic Let...,582,Can Large Language Models Generate Outpatient Clinic Letters at First Consultation That Incorporate Complication Profiles From UK and USA Aesthetic Plastic Surgery Associations?,gpt-4-0314,44,81.0
+268,173,Generate Outpatient Clinic Let...,582,Can Large Language Models Generate Outpatient Clinic Letters at First Consultation That Incorporate Complication Profiles From UK and USA Aesthetic Plastic Surgery Associations?,palm-1-540B,44,45.0
+269,174,in-Depth Patient Education Pri...,585,Feasibility of GPT-3 and GPT-4 for in-Depth Patient Education Prior to Interventional Radiological Procedures: A Comparative Analysis,gpt-3,133,78.9
+270,174,in-Depth Patient Education Pri...,585,Feasibility of GPT-3 and GPT-4 for in-Depth Patient Education Prior to Interventional Radiological Procedures: A Comparative Analysis,gpt-4-0314,133,82.7
+271,175,the Chilean Medical Licensing ...,587,"Exploring the Performance of ChatGPT Versions 3.5, 4, and 4 With Vision in the Chilean Medical Licensing Examination: Observational Study",gpt-3.5-turbo-0613,540,57.53
+272,175,the Chilean Medical Licensing ...,587,"Exploring the Performance of ChatGPT Versions 3.5, 4, and 4 With Vision in the Chilean Medical Licensing Examination: Observational Study",gpt-4-0613,540,79.32
+273,176,Clinical Trial Patient Matchin...,589,Zero-Shot Clinical Trial Patient Matching with LLMs,gpt-3.5-turbo-1106,288,59.0
+274,176,Clinical Trial Patient Matchin...,589,Zero-Shot Clinical Trial Patient Matching with LLMs,gpt-4-1106-preview,288,81.0
+275,176,Clinical Trial Patient Matchin...,589,Zero-Shot Clinical Trial Patient Matching with LLMs,llama-2-70B,288,46.0
+276,176,Clinical Trial Patient Matchin...,589,Zero-Shot Clinical Trial Patient Matching with LLMs,mixtral-8x7B,288,64.0
+277,177,diagnosis and triage of patien...,593,"Comparison of Diagnostic and Triage Accuracy of Ada Health and WebMD Symptom Checkers, ChatGPT, and Physicians for Patients in an Emergency Department: Clinical Data Analysis Study",gpt-3.5-0301,30,40.0
+278,177,diagnosis and triage of patien...,593,"Comparison of Diagnostic and Triage Accuracy of Ada Health and WebMD Symptom Checkers, ChatGPT, and Physicians for Patients in an Emergency Department: Clinical Data Analysis Study",gpt-4-0314,30,33.0
+279,178,Long Clinical Document Benchma...,595,LCD Benchmark: Long Clinical Document Benchmark on Mortality Prediction for Language Models,gpt-4-1106-preview,100,32.4
+280,178,Long Clinical Document Benchma...,595,LCD Benchmark: Long Clinical Document Benchmark on Mortality Prediction for Language Models,mixtral-8x7B,100,22.3
+281,179,Communicative competence in re...,597,Communicative competence of generative artificial intelligence in responding to patient queries about colorectal cancer surgery,gpt-4-1106-preview,20,71.75
+282,179,Communicative competence in re...,597,Communicative competence of generative artificial intelligence in responding to patient queries about colorectal cancer surgery,palm-2-540B,20,67.5
+283,18,dermatology specialty certific...,76,"Performance of ChatGPT on
+Specialty Certificate Examination in Dermatology multiple-choice
+questions",gpt-3.5-0301,84,63.1
+284,18,dermatology specialty certific...,76,"Performance of ChatGPT on
+Specialty Certificate Examination in Dermatology multiple-choice
+questions",gpt-4-0314,84,90.5
+285,18,dermatology specialty certific...,76,"Performance of ChatGPT on
+Specialty Certificate Examination in Dermatology multiple-choice
+questions",human - cut-off,84,70.0
+286,180,triage in the emergency depart...,599,Exploring the potential of artificial intelligence models for triage in the emergency department.,gemini-1.0-pro,500,54.8
+287,180,triage in the emergency depart...,599,Exploring the potential of artificial intelligence models for triage in the emergency department.,gpt-3.5-turbo-0125,500,59.5
+288,180,triage in the emergency depart...,599,Exploring the potential of artificial intelligence models for triage in the emergency department.,human - doctors,500,94.6
+289,181,anticoagulation management for...,606,Assessing ChatGPT4 with and without retrieval-augmented generation in anticoagulation management for gastrointestinal procedures,gpt-3.5-turbo-0125,36,55.5
+290,181,anticoagulation management for...,606,Assessing ChatGPT4 with and without retrieval-augmented generation in anticoagulation management for gastrointestinal procedures,gpt-4-0125-preview,36,77.7
+291,182,management  of prosthetic join...,608,GPT-based chatbot tools are still unreliable in the management of prosthetic joint infections,gpt-3.5-turbo-1106,30,96.5
+292,182,management  of prosthetic join...,608,GPT-based chatbot tools are still unreliable in the management of prosthetic joint infections,gpt-4-1106-preview,30,96.8
+293,182,management  of prosthetic join...,608,GPT-based chatbot tools are still unreliable in the management of prosthetic joint infections,gpt-4-1106-preview (open),30,88.5
+294,183,80 simulated patient complaint...,611,Exploring Diagnostic Precision and Triage Proficiency: A Comparative Study of GPT-4 and Bard in Addressing Common Ophthalmic Complaints,gpt-4-0613,80,53.75
+295,183,80 simulated patient complaint...,611,Exploring Diagnostic Precision and Triage Proficiency: A Comparative Study of GPT-4 and Bard in Addressing Common Ophthalmic Complaints,palm-2-540B,80,43.75
+296,184,80 simulated patient complaint...,613,Exploring Diagnostic Precision and Triage Proficiency: A Comparative Study of GPT-4 and Bard in Addressing Common Ophthalmic Complaints,gpt-4-0613,80,85.0
+297,184,80 simulated patient complaint...,613,Exploring Diagnostic Precision and Triage Proficiency: A Comparative Study of GPT-4 and Bard in Addressing Common Ophthalmic Complaints,palm-2-540B,80,68.75
+298,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,claude-1.1,2044,51.8
+299,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,gpt-3.5-0301,2044,55.3
+300,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,gpt-4-0314,2044,68.7
+301,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,human - doctors,2044,59.55
+302,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,llama-1-13B,2044,27.8
+303,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,llama-1-33B,2044,34.3
+304,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,llama-1-65B,2044,38.5
+305,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,llama-1-7B,2044,25.6
+306,185,a comprehensive battery of 204...,615,Comparative Evaluation of LLMs in Clinical Oncology.,palm-2-540B,2044,45.1
+307,186,patient support before and aft...,624,Performance of ChatGPT 3.5 and 4 as a tool for patient support before and after DBS surgery for Parkinson?셲 disease,gpt-3.5-turbo-0125,80,57.5
+308,186,patient support before and aft...,624,Performance of ChatGPT 3.5 and 4 as a tool for patient support before and after DBS surgery for Parkinson?셲 disease,gpt-4-0125-preview,80,83.8
+309,187,diagnosis of Alzheimer’s Disea...,626,Large Language Models are Clinical Reasoners: Reasoning-Aware Diagnosis Framework with Prompt-Generated Rationales,gpt-3.5-turbo-0613,7124,54.65
+310,187,diagnosis of Alzheimer’s Disea...,626,Large Language Models are Clinical Reasoners: Reasoning-Aware Diagnosis Framework with Prompt-Generated Rationales,gpt-4-0613,7124,57.5
+311,188,Evaluating Clinical Inference ...,628,D-NLP at SemEval-2024 Task 2: Evaluating Clinical Inference Capabilities of Large Language Models,claude-2.0,5500,80.0
+312,188,Evaluating Clinical Inference ...,628,D-NLP at SemEval-2024 Task 2: Evaluating Clinical Inference Capabilities of Large Language Models,falcon-40B-instruct,5500,74.0
+313,188,Evaluating Clinical Inference ...,628,D-NLP at SemEval-2024 Task 2: Evaluating Clinical Inference Capabilities of Large Language Models,gemini-1.0-pro,5500,81.0
+314,188,Evaluating Clinical Inference ...,628,D-NLP at SemEval-2024 Task 2: Evaluating Clinical Inference Capabilities of Large Language Models,gpt-3.5-turbo-1106,5500,70.0
+315,188,Evaluating Clinical Inference ...,628,D-NLP at SemEval-2024 Task 2: Evaluating Clinical Inference Capabilities of Large Language Models,llama-2-70B,5500,67.0
+316,188,Evaluating Clinical Inference ...,628,D-NLP at SemEval-2024 Task 2: Evaluating Clinical Inference Capabilities of Large Language Models,mixtral-8x7B,5500,64.0
+317,188,Evaluating Clinical Inference ...,628,D-NLP at SemEval-2024 Task 2: Evaluating Clinical Inference Capabilities of Large Language Models,palm-2-540B,5500,78.0
+318,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,falcon-40B-instruct,18866,55.57
+319,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,gpt-3.5-turbo-0613,18866,44.48
+320,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,llama-2-13B,18866,55.18
+321,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,llama-2-13B-chat,18866,20.95
+322,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,llama-2-70B,18866,72.33
+323,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,llama-2-70B-chat,18866,11.26
+324,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,llama-2-7B,18866,42.89
+325,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,llama-2-7B-chat,18866,17.83
+326,189,Medical Domain Hallucination T...,641,Med-HALT: Medical Domain Hallucination Test for Large Language Models,text-davinci-002,18866,54.46
+327,19,israeli ophthalmology residenc...,79,Gemini AI vs. ChatGPT: A comprehensive examination alongside ophthalmology residents in medical knowledge.,gemini-1.0-ultra,600,66.0
+328,19,israeli ophthalmology residenc...,79,Gemini AI vs. ChatGPT: A comprehensive examination alongside ophthalmology residents in medical knowledge.,gemini-1.5-pro,600,58.0
+329,19,israeli ophthalmology residenc...,79,Gemini AI vs. ChatGPT: A comprehensive examination alongside ophthalmology residents in medical knowledge.,gpt-3.5-turbo-0125,600,46.0
+330,19,israeli ophthalmology residenc...,79,Gemini AI vs. ChatGPT: A comprehensive examination alongside ophthalmology residents in medical knowledge.,gpt-4-turbo-2024-04-09,600,62.0
+331,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,biomistral-7B,87,6.53
+332,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gemini-1.5-pro,87,31.73
+333,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,glm-3-6B-base,87,32.6
+334,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,glm-4-9B,87,32.23
+335,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gpt-3.5-turbo-1106,87,32.63
+336,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gpt-4-1106-preview,87,42.7
+337,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,llama-2-7B-chat,87,0.0
+338,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,medalpaca-7B,87,0.0
+339,190,the capabilities within the re...,651,RareBench: Can LLMs Serve as Rare Diseases Specialists?,mistral-7B-instruct-v0.1,87,12.83
+340,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,biomistral-7B,33,10.8
+341,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gemini-1.5-pro,33,28.97
+342,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,glm-3-6B-base,33,16.33
+343,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,glm-4-9B,33,47.63
+344,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gpt-3.5-turbo-1106,33,41.6
+345,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gpt-4-1106-preview,33,60.23
+346,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,llama-2-7B-chat,33,6.63
+347,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,medalpaca-7B,33,4.77
+348,191,the capabilities within the re...,660,RareBench: Can LLMs Serve as Rare Diseases Specialists?,mistral-7B-instruct-v0.1,33,8.47
+349,192,the capabilities within the re...,669,RareBench: Can LLMs Serve as Rare Diseases Specialists?,biomistral-7B,527,16.7
+350,192,the capabilities within the re...,669,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gemini-1.5-pro,527,24.3
+351,192,the capabilities within the re...,669,RareBench: Can LLMs Serve as Rare Diseases Specialists?,glm-3-6B-base,527,25.8
+352,192,the capabilities within the re...,669,RareBench: Can LLMs Serve as Rare Diseases Specialists?,glm-4-9B,527,31.3
+353,192,the capabilities within the re...,669,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gpt-3.5-turbo-1106,527,33.2
+354,192,the capabilities within the re...,669,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gpt-4-1106-preview,527,46.1
+355,192,the capabilities within the re...,669,RareBench: Can LLMs Serve as Rare Diseases Specialists?,mistral-7B-instruct-v0.1,527,13.7
+356,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,biomistral-7B,2185,6.5
+357,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gemini-1.5-pro,2185,14.6
+358,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,glm-3-6B-base,2185,12.4
+359,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,glm-4-9B,2185,19.1
+360,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gpt-3.5-turbo-1106,2185,21.1
+361,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,gpt-4-1106-preview,2185,32.3
+362,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,llama-2-7B-chat,2185,7.4
+363,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,medalpaca-7B,2185,8.4
+364,193,the capabilities within the re...,676,RareBench: Can LLMs Serve as Rare Diseases Specialists?,mistral-7B-instruct-v0.1,2185,7.2
+365,194,ophthalmology knowledge assess...,685,Google Gemini and Bard artificial intelligence chatbot performance in ophthalmology knowledge assessment.,gemini-1.0-pro,150,71.0
+366,194,ophthalmology knowledge assess...,685,Google Gemini and Bard artificial intelligence chatbot performance in ophthalmology knowledge assessment.,palm-2-540B,150,71.0
+367,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,falcon-7B-instruct,10252,33.25
+368,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,llama-1-13B,10252,44.1
+369,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,llama-1-7B,10252,31.9
+370,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,llama-2-13B,10252,47.1
+371,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,llama-2-13B-chat,10252,50.3
+372,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,llama-2-7B,10252,42.9
+373,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,llama-2-7B-chat,10252,45.9
+374,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,medalpaca-7B,10252,42.8
+375,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,mpt-7B,10252,29.6
+376,195,Clinical Reading Comprehension...,687,M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering,pmcllama-13B,10252,48.8
+377,196,Responses to Vaccination Myths...,699,Artificial Intelligence and Public Health: Evaluating ChatGPT Responses to Vaccination Myths and Misconceptions,gpt-3.5-0301,22,64.8
+378,196,Responses to Vaccination Myths...,699,Artificial Intelligence and Public Health: Evaluating ChatGPT Responses to Vaccination Myths and Misconceptions,gpt-4-0314,22,71.8
+379,197,Turkish Medical Specialization...,701,AI in Medical Education: A Comparative Analysis of GPT-4 and GPT-3.5 on Turkish Medical Specialization Exam Performance,gpt-3,1440,40.17
+380,197,Turkish Medical Specialization...,701,AI in Medical Education: A Comparative Analysis of GPT-4 and GPT-3.5 on Turkish Medical Specialization Exam Performance,gpt-3.5-0301,1440,70.56
+381,197,Turkish Medical Specialization...,701,AI in Medical Education: A Comparative Analysis of GPT-4 and GPT-3.5 on Turkish Medical Specialization Exam Performance,human - doctors,1440,38.14
+382,198,provide valuable feedback to p...,704,"Can LLMs Correct Physicians, Yet? Investigating Effective Interaction Methods in the Medical Domain",llama-2-7B-chat,445,56.12
+383,198,provide valuable feedback to p...,704,"Can LLMs Correct Physicians, Yet? Investigating Effective Interaction Methods in the Medical Domain",meditron-7B,445,60.47
+384,198,provide valuable feedback to p...,704,"Can LLMs Correct Physicians, Yet? Investigating Effective Interaction Methods in the Medical Domain",mistral-7B-instruct-v0.3,445,73.96
+385,199,Responding to Patient Queries ...,707,Performance of Artificial Intelligence Chatbots in Responding to Patient Queries Related to Traumatic Dental Injuries: A Comparative Study.,gemini-1.5-pro,59,80.25
+386,199,Responding to Patient Queries ...,707,Performance of Artificial Intelligence Chatbots in Responding to Patient Queries Related to Traumatic Dental Injuries: A Comparative Study.,gpt-3.5-turbo-0125,59,69.75
+387,199,Responding to Patient Queries ...,707,Performance of Artificial Intelligence Chatbots in Responding to Patient Queries Related to Traumatic Dental Injuries: A Comparative Study.,gpt-4-turbo-2024-04-09,59,78.0
+388,2,recommending surgical interven...,4,AI in Hand Surgery: Assessing Large Language Models in the Classification and Management of Hand Injuries,gemini-1.5-pro,136,91.725
+389,2,recommending surgical interven...,4,AI in Hand Surgery: Assessing Large Language Models in the Classification and Management of Hand Injuries,gpt-4-0125-preview,136,87.325
+390,20,diagnosis on oligodendroglioma...,83,Large language models as a diagnostic support tool in neuropathology,claude-3-5-sonnet-20240622,30,52.8
+391,20,diagnosis on oligodendroglioma...,83,Large language models as a diagnostic support tool in neuropathology,gpt-4o-2024-05-13,30,3.3
+392,20,diagnosis on oligodendroglioma...,83,Large language models as a diagnostic support tool in neuropathology,llama-3-70B,30,0.0
+393,200,ophthalmology triage - curated...,710,The use of artificial intelligence based chat bots in ophthalmology triage.,gpt-3.5-turbo-0613,100,82.5
+394,200,ophthalmology triage - curated...,710,The use of artificial intelligence based chat bots in ophthalmology triage.,palm-2-540B,100,76.9
+395,201,providing recommendations rega...,712,Conformity of ChatGPT recommendations with the AUA/SUFU guideline on postprostatectomy urinary incontinence,gpt-3.5-0301,20,57.5
+396,201,providing recommendations rega...,712,Conformity of ChatGPT recommendations with the AUA/SUFU guideline on postprostatectomy urinary incontinence,gpt-4-0314,20,90.0
+397,202,answering case-based questions...,714,Assessing unknown potential?봰uality and limitations of different large language models in the field of otorhinolaryngology,claude-2.0,41,78.0
+398,202,answering case-based questions...,714,Assessing unknown potential?봰uality and limitations of different large language models in the field of otorhinolaryngology,gpt-4-0613,41,85.0
+399,202,answering case-based questions...,714,Assessing unknown potential?봰uality and limitations of different large language models in the field of otorhinolaryngology,human - doctors,41,93.0
+400,202,answering case-based questions...,714,Assessing unknown potential?봰uality and limitations of different large language models in the field of otorhinolaryngology,palm-2-540B,41,59.0
+401,203,providing the correct diagnosi...,718,Evaluation of large language models as a diagnostic aid for complex medical cases,gpt-3.5-turbo-0613,76,48.0
+402,203,providing the correct diagnosi...,718,Evaluation of large language models as a diagnostic aid for complex medical cases,gpt-4-0613,76,68.0
+403,204,China’s Intermediate Professio...,720,The performance of AI in medical examinations: an exploration of ChatGPT in ultrasound medical education,gpt-3.5-turbo-0125,100,32.85
+404,204,China’s Intermediate Professio...,720,The performance of AI in medical examinations: an exploration of ChatGPT in ultrasound medical education,gpt-4-turbo-2024-04-09,100,55.7
+405,205,practice examination questions...,722,B - 113 Assessing the Neuropsychology Information Base of Large Language Models,gemini-1.5-pro,600,52.7
+406,205,practice examination questions...,722,B - 113 Assessing the Neuropsychology Information Base of Large Language Models,gpt-3.5-turbo-0125,600,62.5
+407,205,practice examination questions...,722,B - 113 Assessing the Neuropsychology Information Base of Large Language Models,gpt-4-turbo-2024-04-09,600,74.0
+408,206,a Pediatric Board Preparatory ...,731,ChatGPT Yields a Passing Score on a Pediatric Board Preparatory Exam but Raises Red Flags,gpt-3.5-turbo-0613,245,57.15
+409,206,a Pediatric Board Preparatory ...,731,ChatGPT Yields a Passing Score on a Pediatric Board Preparatory Exam but Raises Red Flags,gpt-4-0613,245,81.8
+410,207,Rhinology Standardized Board E...,733,Comparative Performance of ChatGPT 3.5 and GPT4 on Rhinology Standardized Board Examination Questions,gpt-3.5-turbo-0125,127,45.2
+411,207,Rhinology Standardized Board E...,733,Comparative Performance of ChatGPT 3.5 and GPT4 on Rhinology Standardized Board Examination Questions,gpt-4-0125-preview,127,86.0
+412,208,Answering HPV Vaccine-related ...,738,VaxBot-HPV: A GPT-based Chatbot for Answering HPV Vaccine-related Questions,gpt-3.5-turbo-0125,202,86.0
+413,208,Answering HPV Vaccine-related ...,738,VaxBot-HPV: A GPT-based Chatbot for Answering HPV Vaccine-related Questions,gpt-4-0125-preview,202,87.0
+414,209,Hyperlipidemia for Patient Edu...,740,Evaluating ChatGPT-3.5 and ChatGPT-4.0 Responses on Hyperlipidemia for Patient Education,gpt-3.5-turbo-0125,25,69.33
+415,209,Hyperlipidemia for Patient Edu...,740,Evaluating ChatGPT-3.5 and ChatGPT-4.0 Responses on Hyperlipidemia for Patient Education,gpt-4-turbo-2024-04-09,25,74.67
+416,21,open-ended question on patient...,86,"EYE-Llama, an in-domain large language model for ophthalmology",gpt-3.5-turbo-0125,1307,57.57
+417,21,open-ended question on patient...,86,"EYE-Llama, an in-domain large language model for ophthalmology",llama-2-7B,1307,56.3
+418,210,Patient’s Questions Regarding ...,742,A Qualitative Evaluation of ChatGPT4 and PaLM2?셲 Response to Patient?셲 Questions Regarding Age-Related Macular Degeneration,gpt-4-1106-preview,133,95.99
+419,210,Patient’s Questions Regarding ...,742,A Qualitative Evaluation of ChatGPT4 and PaLM2?셲 Response to Patient?셲 Questions Regarding Age-Related Macular Degeneration,palm-2-540B,133,80.2
+420,211,the Diagnosis of Psychiatric D...,744,Role of ChatGPT and Google Bard in the Diagnosis of Psychiatric Disorders: A Comparative Study,gpt-3.5-turbo-0613,20,75.0
+421,211,the Diagnosis of Psychiatric D...,744,Role of ChatGPT and Google Bard in the Diagnosis of Psychiatric Disorders: A Comparative Study,palm-2-540B,20,70.0
+422,22,open-ended question on patient...,88,"EYE-Llama, an in-domain large language model for ophthalmology",gpt-3.5-turbo-0125,1307,95.0
+423,22,open-ended question on patient...,88,"EYE-Llama, an in-domain large language model for ophthalmology",llama-2-7B,1307,60.0
+424,23,open-ended question on patient...,90,"EYE-Llama, an in-domain large language model for ophthalmology",gpt-3.5-turbo-0125,1307,70.0
+425,23,open-ended question on patient...,90,"EYE-Llama, an in-domain large language model for ophthalmology",llama-2-7B,1307,5.0
+426,24,open-ended question on patient...,92,"EYE-Llama, an in-domain large language model for ophthalmology",gpt-3.5-turbo-0125,1307,72.0
+427,24,open-ended question on patient...,92,"EYE-Llama, an in-domain large language model for ophthalmology",llama-2-7B,1307,46.0
+428,25,primary diagnosis on radiology...,94,"Diagnostic performances of GPT-4o, Claude 3 Opus, and Gemini 1.5 Pro in ?쏡iagnosis Please??cases",claude-3-sonnet-20240229,324,54.0
+429,25,primary diagnosis on radiology...,94,"Diagnostic performances of GPT-4o, Claude 3 Opus, and Gemini 1.5 Pro in ?쏡iagnosis Please??cases",gemini-1.5-pro,324,33.9
+430,25,primary diagnosis on radiology...,94,"Diagnostic performances of GPT-4o, Claude 3 Opus, and Gemini 1.5 Pro in ?쏡iagnosis Please??cases",gpt-4o-2024-05-13,324,41.0
+431,26,anti-LGBTQIA+ medical bias sit...,97,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,claude-3-haiku-20240307,38,61.8
+432,26,anti-LGBTQIA+ medical bias sit...,97,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gemini-1.5-flash,38,53.4
+433,26,anti-LGBTQIA+ medical bias sit...,97,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gpt-4o-2024-05-13,38,87.8
+434,27,anti-LGBTQIA+ medical bias sit...,100,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,claude-3-haiku-20240307,38,28.9
+435,27,anti-LGBTQIA+ medical bias sit...,100,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gemini-1.5-flash,38,21.1
+436,27,anti-LGBTQIA+ medical bias sit...,100,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gpt-4o-2024-05-13,38,47.4
+437,28,anti-LGBTQIA+ medical bias sit...,103,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,claude-3-haiku-20240307,38,81.6
+438,28,anti-LGBTQIA+ medical bias sit...,103,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gemini-1.5-flash,38,84.2
+439,28,anti-LGBTQIA+ medical bias sit...,103,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gpt-4o-2024-05-13,38,71.1
+440,29,anti-LGBTQIA+ medical bias sit...,106,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,claude-3-haiku-20240307,38,42.1
+441,29,anti-LGBTQIA+ medical bias sit...,106,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gemini-1.5-flash,38,71.1
+442,29,anti-LGBTQIA+ medical bias sit...,106,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gpt-4o-2024-05-13,38,52.6
+443,3,american board of thoracic sur...,12,Large Language Models Take on Cardiothoracic Surgery: A Comparative Analysis of the Performance of Four Models on American Board of Thoracic Surgery Exam Questions in 2023,claude-2.0,400,52.3
+444,3,american board of thoracic sur...,12,Large Language Models Take on Cardiothoracic Surgery: A Comparative Analysis of the Performance of Four Models on American Board of Thoracic Surgery Exam Questions in 2023,gpt-3.5-turbo-0125,400,51.8
+445,3,american board of thoracic sur...,12,Large Language Models Take on Cardiothoracic Surgery: A Comparative Analysis of the Performance of Four Models on American Board of Thoracic Surgery Exam Questions in 2023,gpt-4-turbo-2024-04-09,400,87.0
+446,3,american board of thoracic sur...,12,Large Language Models Take on Cardiothoracic Surgery: A Comparative Analysis of the Performance of Four Models on American Board of Thoracic Surgery Exam Questions in 2023,medpalm-2,400,55.8
+447,30,anti-LGBTQIA+ medical bias sit...,109,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,claude-3-haiku-20240307,38,89.5
+448,30,anti-LGBTQIA+ medical bias sit...,109,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gemini-1.5-flash,38,81.6
+449,30,anti-LGBTQIA+ medical bias sit...,109,Evaluating Anti-LGBTQIA+ Medical Bias in Large Language Models,gpt-4o-2024-05-13,38,94.7
+450,31,classification of breast disea...,112,Evaluating Large Language Model (LLM) Performance on Established Breast Classification Systems,gemini-1.0-pro,50,98.0
+451,31,classification of breast disea...,112,Evaluating Large Language Model (LLM) Performance on Established Breast Classification Systems,gpt-4-1106-preview,50,71.0
+452,32,mimicking Doctor–Patient Commu...,116,The Potential Impact of Large Language Models on Doctor?밣atient Communication: A Case Study in Prostate Cancer,gemini-1.5-pro,25,70.2
+453,32,mimicking Doctor–Patient Commu...,116,The Potential Impact of Large Language Models on Doctor?밣atient Communication: A Case Study in Prostate Cancer,gpt-3.5-turbo-0125,25,82.6
+454,32,mimicking Doctor–Patient Commu...,116,The Potential Impact of Large Language Models on Doctor?밣atient Communication: A Case Study in Prostate Cancer,gpt-4-0125-preview (open),25,76.8
+455,33,providing differential diagnos...,117,Accuracy and consistency of ChatGPT-3.5 and -?? in providing differential diagnoses in oral and maxillofacial diseases: a comparative diagnostic performance analysis.,gpt-3.5-turbo-0125,75,64.86
+456,33,providing differential diagnos...,117,Accuracy and consistency of ChatGPT-3.5 and -?? in providing differential diagnoses in oral and maxillofacial diseases: a comparative diagnostic performance analysis.,gpt-4-0125-preview,75,80.18
+457,34,japanese medical physicist boa...,119,Assessing knowledge about medical physics in language-generative AI with large language model: using the medical physicist exam.,gpt-3.5-0301,718,42.2
+458,34,japanese medical physicist boa...,119,Assessing knowledge about medical physics in language-generative AI with large language model: using the medical physicist exam.,gpt-4-0314,718,72.7
+459,35,assessment of potassium conten...,121,"AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",gpt-3.5-0301,240,66.0
+460,35,assessment of potassium conten...,121,"AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",gpt-4-0314,240,81.0
+461,35,assessment of potassium conten...,121,"AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",gpt-4-0314 (open),240,81.0
+462,35,assessment of potassium conten...,121,"AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",palm-2-540B,240,79.0
+463,36,American Cancer Society’s Ques...,124,Physician Assessment of ChatGPT and Bing Answers to American Cancer Society?셲 Questions to Ask About Your Cancer,gpt-4-0125-preview,117,76.8
+464,36,American Cancer Society’s Ques...,124,Physician Assessment of ChatGPT and Bing Answers to American Cancer Society?셲 Questions to Ask About Your Cancer,gpt-4-0314 (open),117,63.8
+465,37,assessment of phosphorus conte...,125,"AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",gpt-3.5-0301,240,85.0
+466,37,assessment of phosphorus conte...,125,"AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",gpt-4-0314,240,77.0
+467,37,assessment of phosphorus conte...,125,"AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",gpt-4-0314 (open),240,89.0
+468,37,assessment of phosphorus conte...,125,"AI-Powered Renal Diet Support: Performance of ChatGPT, Bard AI, and Bing Chat",palm-2-540B,240,100.0
+469,38,uestions about atrial fibrilla...,128,Accuracy and comprehensibility of chat-based artificial intelligence for patient information on atrial fibrillation and cardiac implantable electronic devices,gpt-4-0314,50,84.0
+470,38,uestions about atrial fibrilla...,128,Accuracy and comprehensibility of chat-based artificial intelligence for patient information on atrial fibrillation and cardiac implantable electronic devices,gpt-4-0314 (open),50,60.0
+471,38,uestions about atrial fibrilla...,128,Accuracy and comprehensibility of chat-based artificial intelligence for patient information on atrial fibrillation and cardiac implantable electronic devices,palm-2-540B,50,52.0
+472,39,triaging simulated emergency m...,129,Emergency Patient Triage Improvement through a Retrieval-Augmented Generation Enhanced Large-Scale Language Model.,gpt-3.5-turbo-0125,100,47.0
+473,39,triaging simulated emergency m...,129,Emergency Patient Triage Improvement through a Retrieval-Augmented Generation Enhanced Large-Scale Language Model.,gpt-4-1106-preview,100,48.0
+474,39,triaging simulated emergency m...,129,Emergency Patient Triage Improvement through a Retrieval-Augmented Generation Enhanced Large-Scale Language Model.,human - doctors,100,42.5
+475,4,specialty certificate examinat...,16,Dermatological Knowledge and Image Analysis Performance of Large Language Models Based on Specialty Certificate Examination in Dermatology,claude-3-5-sonnet-20240622,100,87.0
+476,4,specialty certificate examinat...,16,Dermatological Knowledge and Image Analysis Performance of Large Language Models Based on Specialty Certificate Examination in Dermatology,gemini-1.5-pro,100,75.0
+477,4,specialty certificate examinat...,16,Dermatological Knowledge and Image Analysis Performance of Large Language Models Based on Specialty Certificate Examination in Dermatology,gpt-4o-2024-05-13,100,90.0
+478,4,specialty certificate examinat...,16,Dermatological Knowledge and Image Analysis Performance of Large Language Models Based on Specialty Certificate Examination in Dermatology,gpt-4o-2024-05-13 (open),100,88.0
+479,4,specialty certificate examinat...,16,Dermatological Knowledge and Image Analysis Performance of Large Language Models Based on Specialty Certificate Examination in Dermatology,human - cut-off,100,77.0
+480,4,specialty certificate examinat...,16,Dermatological Knowledge and Image Analysis Performance of Large Language Models Based on Specialty Certificate Examination in Dermatology,perplexity,100,87.0
+481,40,answer in concordance with nor...,133,ChatGPT versus NASS clinical guidelines for degenerative spondylolisthesis: a comparative analysis.,gpt-3.5-0301,28,46.4
+482,40,answer in concordance with nor...,133,ChatGPT versus NASS clinical guidelines for degenerative spondylolisthesis: a comparative analysis.,gpt-4-0613,28,67.9
+483,41,answering ophthalmology questi...,135,"Artificial Intelligence in Ophthalmology: A Comparative Analysis of GPT-3.5, GPT-4, and Human Expertise in Answering StatPearls Questions",gpt-3.5-0301,467,55.5
+484,41,answering ophthalmology questi...,135,"Artificial Intelligence in Ophthalmology: A Comparative Analysis of GPT-3.5, GPT-4, and Human Expertise in Answering StatPearls Questions",gpt-4-0314,467,73.2
+485,41,answering ophthalmology questi...,135,"Artificial Intelligence in Ophthalmology: A Comparative Analysis of GPT-3.5, GPT-4, and Human Expertise in Answering StatPearls Questions",human - doctors,467,58.3
+486,42,Plastic Surgery In-service Exa...,138,ChatGPT-4 Surpasses Residents: A Study of Artificial Intelligence Competency in Plastic Surgery In-service Examinations and Its Advancements from ChatGPT-3.5,gpt-3.5-turbo-1106,1292,55.5
+487,42,Plastic Surgery In-service Exa...,138,ChatGPT-4 Surpasses Residents: A Study of Artificial Intelligence Competency in Plastic Surgery In-service Examinations and Its Advancements from ChatGPT-3.5,gpt-4-1106-preview,1292,74.4
+488,42,Plastic Surgery In-service Exa...,138,ChatGPT-4 Surpasses Residents: A Study of Artificial Intelligence Competency in Plastic Surgery In-service Examinations and Its Advancements from ChatGPT-3.5,human - doctors,1292,80.7
+489,43,120 clinical vignettes diagnos...,141,Visual-Textual Integration in LLMs for Medical Diagnosis: A Quantitative Analysis,claude-3-5-sonnet-20240622,120,59.5
+490,43,120 clinical vignettes diagnos...,141,Visual-Textual Integration in LLMs for Medical Diagnosis: A Quantitative Analysis,gpt-4o-2024-05-13,120,70.8
+491,43,120 clinical vignettes diagnos...,141,Visual-Textual Integration in LLMs for Medical Diagnosis: A Quantitative Analysis,human - doctors,120,39.5
+492,44,generating differential diagno...,144,ChatGPT-Generated Differential Diagnosis Lists for Complex Case?밆erived Clinical Vignettes: Diagnostic Accuracy Evaluation,gpt-3.5-0301,52,73.0
+493,44,generating differential diagno...,144,ChatGPT-Generated Differential Diagnosis Lists for Complex Case?밆erived Clinical Vignettes: Diagnostic Accuracy Evaluation,gpt-4-0314,52,83.0
+494,44,generating differential diagno...,144,ChatGPT-Generated Differential Diagnosis Lists for Complex Case?밆erived Clinical Vignettes: Diagnostic Accuracy Evaluation,human - doctors,52,75.0
+495,45,evaluating and ranking candida...,147,Evaluation of Bias Towards Medical Professionals in Large Language Models,claude-3-haiku-20240307,900000,16.7
+496,45,evaluating and ranking candida...,147,Evaluation of Bias Towards Medical Professionals in Large Language Models,gpt-4-1106-preview,900000,58.4
+497,45,evaluating and ranking candida...,147,Evaluation of Bias Towards Medical Professionals in Large Language Models,mistral-large-instruct-2407,900000,25.0
+498,46,responding to short-answer man...,150,Performance of generative pre-trained transformers (GPTs) in Certification Examination of the College of Family Physicians of Canada,gpt-3.5-turbo-0613,77,84.0
+499,46,responding to short-answer man...,150,Performance of generative pre-trained transformers (GPTs) in Certification Examination of the College of Family Physicians of Canada,gpt-4-0613,77,93.0
+500,47,haematopoietic stem cell trans...,152,Evaluating the performance of large language models in haematopoietic stem cell transplantation decision?릑aking,gpt-4-0613,150,61.7
+501,47,haematopoietic stem cell trans...,152,Evaluating the performance of large language models in haematopoietic stem cell transplantation decision?릑aking,human - doctors,150,76.5
+502,47,haematopoietic stem cell trans...,152,Evaluating the performance of large language models in haematopoietic stem cell transplantation decision?릑aking,llama-2-13B,150,50.0
+503,47,haematopoietic stem cell trans...,152,Evaluating the performance of large language models in haematopoietic stem cell transplantation decision?릑aking,llama-2-70B,150,64.7
+504,47,haematopoietic stem cell trans...,152,Evaluating the performance of large language models in haematopoietic stem cell transplantation decision?릑aking,palm-2-540B,150,64.7
+505,48,generating structured scientif...,157,Assessing the Reproducibility of the Structured Abstracts Generated by ChatGPT and Bard Compared to Human-Written Abstracts in the Field of Spine Surgery: Comparative Analysis,gpt-3.5-turbo-0613,60,56.6
+506,48,generating structured scientif...,157,Assessing the Reproducibility of the Structured Abstracts Generated by ChatGPT and Bard Compared to Human-Written Abstracts in the Field of Spine Surgery: Comparative Analysis,palm-2-540B,60,11.1
+507,49,generating structured scientif...,159,Assessing the Reproducibility of the Structured Abstracts Generated by ChatGPT and Bard Compared to Human-Written Abstracts in the Field of Spine Surgery: Comparative Analysis,gpt-3.5-turbo-0613,60,65.0
+508,49,generating structured scientif...,159,Assessing the Reproducibility of the Structured Abstracts Generated by ChatGPT and Bard Compared to Human-Written Abstracts in the Field of Spine Surgery: Comparative Analysis,palm-2-540B,60,66.7
+509,5,the otolaryngology job competi...,17,Examining the Performance of ChatGPT 3.5 and Microsoft Copilot in Otolaryngology: A Comparative Study with Otolaryngologists' Evaluation.,gpt-3.5-turbo-0613,135,60.0
+510,5,the otolaryngology job competi...,17,Examining the Performance of ChatGPT 3.5 and Microsoft Copilot in Otolaryngology: A Comparative Study with Otolaryngologists' Evaluation.,gpt-4-1106-preview (open),135,88.5
+511,5,the otolaryngology job competi...,17,Examining the Performance of ChatGPT 3.5 and Microsoft Copilot in Otolaryngology: A Comparative Study with Otolaryngologists' Evaluation.,human - doctors,135,65.0
+512,50,acute ischemic stroke screenin...,161,Performance of ChatGPT on prehospital acute ischemic stroke and large vessel occlusion (LVO) stroke screening,gpt-3.5-turbo-0125,400,18.0
+513,50,acute ischemic stroke screenin...,161,Performance of ChatGPT on prehospital acute ischemic stroke and large vessel occlusion (LVO) stroke screening,gpt-4-turbo-2024-04-09,400,50.0
+514,51,large vessel occlusion identif...,163,Performance of ChatGPT on prehospital acute ischemic stroke and large vessel occlusion (LVO) stroke screening,gpt-3.5-turbo-0125,400,20.0
+515,51,large vessel occlusion identif...,163,Performance of ChatGPT on prehospital acute ischemic stroke and large vessel occlusion (LVO) stroke screening,gpt-4-turbo-2024-04-09,400,42.0
+516,52,nuerological reasoning,165,Performance of ChatGPT on prehospital acute ischemic stroke and large vessel occlusion (LVO) stroke screening,gpt-3.5-turbo-0125,400,72.4
+517,52,nuerological reasoning,165,Performance of ChatGPT on prehospital acute ischemic stroke and large vessel occlusion (LVO) stroke screening,gpt-4-turbo-2024-04-09,400,84.8
+518,53,otolaryngology questions from ...,167,Comparative Assessment of Otolaryngology Knowledge Among Large Language Models.,gpt-3.5-turbo-1106,4566,58.5
+519,53,otolaryngology questions from ...,167,Comparative Assessment of Otolaryngology Knowledge Among Large Language Models.,gpt-4-1106-preview,4566,77.1
+520,53,otolaryngology questions from ...,167,Comparative Assessment of Otolaryngology Knowledge Among Large Language Models.,llama-3-70B,4566,66.8
+521,53,otolaryngology questions from ...,167,Comparative Assessment of Otolaryngology Knowledge Among Large Language Models.,medpalm-1,4566,70.6
+522,53,otolaryngology questions from ...,167,Comparative Assessment of Otolaryngology Knowledge Among Large Language Models.,palm-2-540B,4566,56.5
+523,54,otolaryngology board-style que...,172,Performance of Novel GPT-4 in Otolaryngology Knowledge Assessment,gpt-3.5-turbo-1106,150,51.3
+524,54,otolaryngology board-style que...,172,Performance of Novel GPT-4 in Otolaryngology Knowledge Assessment,gpt-4-1106-preview,150,72.0
+525,55,advocating the management of m...,174,Performance of large language models on advocating the management of meningitis: a comparative qualitative study,claude-2.0,48,77.1
+526,55,advocating the management of m...,174,Performance of large language models on advocating the management of meningitis: a comparative qualitative study,gpt-3.5-0301,48,70.8
+527,55,advocating the management of m...,174,Performance of large language models on advocating the management of meningitis: a comparative qualitative study,gpt-4-0314,48,89.6
+528,55,advocating the management of m...,174,Performance of large language models on advocating the management of meningitis: a comparative qualitative study,gpt-4-0314 (open),48,50.0
+529,55,advocating the management of m...,174,Performance of large language models on advocating the management of meningitis: a comparative qualitative study,llama-2-70B,48,47.9
+530,55,advocating the management of m...,174,Performance of large language models on advocating the management of meningitis: a comparative qualitative study,palm-1-540B,48,25.0
+531,55,advocating the management of m...,174,Performance of large language models on advocating the management of meningitis: a comparative qualitative study,palm-2-540B,48,39.6
+532,56,radiologic decision-making for...,175,"Radiologic Decision-Making for Imaging in Pulmonary Embolism: Accuracy and Reliability of Large Language Models?볿ing, Claude, ChatGPT, and Perplexity",claude-2.0,52,60.0
+533,56,radiologic decision-making for...,175,"Radiologic Decision-Making for Imaging in Pulmonary Embolism: Accuracy and Reliability of Large Language Models?볿ing, Claude, ChatGPT, and Perplexity",gpt-3.5-turbo-1106,52,60.0
+534,56,radiologic decision-making for...,175,"Radiologic Decision-Making for Imaging in Pulmonary Embolism: Accuracy and Reliability of Large Language Models?볿ing, Claude, ChatGPT, and Perplexity",gpt-4-1106-preview (open),52,96.0
+535,56,radiologic decision-making for...,175,"Radiologic Decision-Making for Imaging in Pulmonary Embolism: Accuracy and Reliability of Large Language Models?볿ing, Claude, ChatGPT, and Perplexity",perplexity,52,56.0
+536,57,oral and maxillofacial radiolo...,178,How well do large language model-based chatbots perform in oral and maxillofacial radiology?,gpt-3.5-turbo-1106,52,50.0
+537,57,oral and maxillofacial radiolo...,178,How well do large language model-based chatbots perform in oral and maxillofacial radiology?,gpt-4-1106-preview,52,65.4
+538,57,oral and maxillofacial radiolo...,178,How well do large language model-based chatbots perform in oral and maxillofacial radiology?,gpt-4-1106-preview (open),52,63.5
+539,57,oral and maxillofacial radiolo...,178,How well do large language model-based chatbots perform in oral and maxillofacial radiology?,human - doctors,52,81.2
+540,57,oral and maxillofacial radiolo...,178,How well do large language model-based chatbots perform in oral and maxillofacial radiology?,palm-2-540B,52,50.0
+541,58,solving hematology-related cas...,181,"Large Language Models in Hematology Case Solving: A Comparative Study of ChatGPT-3.5, Google Bard, and Microsoft Bing",gpt-3.5-0301,50,63.0
+542,58,solving hematology-related cas...,181,"Large Language Models in Hematology Case Solving: A Comparative Study of ChatGPT-3.5, Google Bard, and Microsoft Bing",gpt-4-0314 (open),50,39.6
+543,58,solving hematology-related cas...,181,"Large Language Models in Hematology Case Solving: A Comparative Study of ChatGPT-3.5, Google Bard, and Microsoft Bing",palm-1-540B,50,44.6
+544,59,drafting emergency department ...,183,Evaluating Large Language Models for Drafting Emergency Department Discharge Summaries,gpt-3.5-turbo-1106,100,10.0
+545,59,drafting emergency department ...,183,Evaluating Large Language Models for Drafting Emergency Department Discharge Summaries,gpt-4-0613,100,33.0
+546,6,question answering about palli...,22,"Assessment of readability, reliability, and quality of ChatGPT짰, BARD짰, Gemini짰, Copilot짰, Perplexity짰 responses on palliative care",gemini-1.5-pro,100,35.39
+547,6,question answering about palli...,22,"Assessment of readability, reliability, and quality of ChatGPT짰, BARD짰, Gemini짰, Copilot짰, Perplexity짰 responses on palliative care",gpt-3.5-turbo-0613,100,33.43
+548,6,question answering about palli...,22,"Assessment of readability, reliability, and quality of ChatGPT짰, BARD짰, Gemini짰, Copilot짰, Perplexity짰 responses on palliative care",gpt-4o-2024-05-13 (open),100,39.4
+549,6,question answering about palli...,22,"Assessment of readability, reliability, and quality of ChatGPT짰, BARD짰, Gemini짰, Copilot짰, Perplexity짰 responses on palliative care",palm-2-540B,100,45.025000000000006
+550,6,question answering about palli...,22,"Assessment of readability, reliability, and quality of ChatGPT짰, BARD짰, Gemini짰, Copilot짰, Perplexity짰 responses on palliative care",perplexity,100,46.06
+551,60,generating medical content spa...,185,Large Language Models for Therapy Recommendations Across 3 Clinical Specialties: Comparative Study,bloomz-7B,60,21.4
+552,60,generating medical content spa...,185,Large Language Models for Therapy Recommendations Across 3 Clinical Specialties: Comparative Study,claude-1.1,60,67.0
+553,60,generating medical content spa...,185,Large Language Models for Therapy Recommendations Across 3 Clinical Specialties: Comparative Study,command,60,43.4
+554,60,generating medical content spa...,185,Large Language Models for Therapy Recommendations Across 3 Clinical Specialties: Comparative Study,gpt-3.5-0301,60,55.6
+555,61,answering patient’s self-care ...,191,The role of large language models in self-care: a study and benchmark on medicines and supplement guidance accuracy.,gemini-1.5-pro,58,80.0
+556,61,answering patient’s self-care ...,191,The role of large language models in self-care: a study and benchmark on medicines and supplement guidance accuracy.,gpt-3.5-turbo-0125,58,81.4
+557,61,answering patient’s self-care ...,191,The role of large language models in self-care: a study and benchmark on medicines and supplement guidance accuracy.,gpt-4-0125-preview,58,90.2
+558,61,answering patient’s self-care ...,191,The role of large language models in self-care: a study and benchmark on medicines and supplement guidance accuracy.,gpt-4-0125-preview (open),58,84.0
+559,61,answering patient’s self-care ...,191,The role of large language models in self-care: a study and benchmark on medicines and supplement guidance accuracy.,perplexity,58,81.4
+560,62,open-ended questions related t...,192,Comparison of Large Language Models in Answering Immuno-Oncology Questions: A Cross-Sectional Study.,gpt-3.5-turbo-0613,60,58.5
+561,62,open-ended questions related t...,192,Comparison of Large Language Models in Answering Immuno-Oncology Questions: A Cross-Sectional Study.,gpt-4-0613,60,75.4
+562,62,open-ended questions related t...,192,Comparison of Large Language Models in Answering Immuno-Oncology Questions: A Cross-Sectional Study.,palm-2-540B,60,43.8
+563,63,Assisted Differential Diagnosi...,195,Accuracy Evaluation of GPT-Assisted Differential Diagnosis in Emergency Department,gpt-3.5-turbo-0125,3000,90.91
+564,63,Assisted Differential Diagnosi...,195,Accuracy Evaluation of GPT-Assisted Differential Diagnosis in Emergency Department,gpt-4-0125-preview,3000,90.62
+565,64,Annotate Complex Cases of Soci...,197,Using Large Language Models to Annotate Complex Cases of Social Determinants of Health in Longitudinal Clinical Records,gpt-3.5-turbo-0613,25217,73.8
+566,64,Annotate Complex Cases of Soci...,197,Using Large Language Models to Annotate Complex Cases of Social Determinants of Health in Longitudinal Clinical Records,gpt-4-0613,25217,88.6
+567,64,Annotate Complex Cases of Soci...,197,Using Large Language Models to Annotate Complex Cases of Social Determinants of Health in Longitudinal Clinical Records,human - doctors,25217,81.4
+568,65,Contrast-enhanced Ultrasound L...,200,Feasibility of large language models for CEUS LI-RADS categorization of small liver nodules in patients at risk for hepatocellular carcinoma,gemini-1.5-pro,403,16.5
+569,65,Contrast-enhanced Ultrasound L...,200,Feasibility of large language models for CEUS LI-RADS categorization of small liver nodules in patients at risk for hepatocellular carcinoma,gpt-4-turbo-2024-04-09,403,92.5
+570,65,Contrast-enhanced Ultrasound L...,200,Feasibility of large language models for CEUS LI-RADS categorization of small liver nodules in patients at risk for hepatocellular carcinoma,gpt-4o-2024-05-13,403,77.5
+571,65,Contrast-enhanced Ultrasound L...,200,Feasibility of large language models for CEUS LI-RADS categorization of small liver nodules in patients at risk for hepatocellular carcinoma,gpt-4o-mini-2024-07-18,403,56.5
+572,66,Zero-Shot Clinical Natural Lan...,204,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,gemini-1.5-pro,55,76.0
+573,66,Zero-Shot Clinical Natural Lan...,204,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,gpt-3.5-turbo-0125,55,88.0
+574,66,Zero-Shot Clinical Natural Lan...,204,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,llama-2-70B,55,88.0
+575,67,Zero-Shot Clinical Natural Lan...,207,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,gemini-1.5-pro,105,69.0
+576,67,Zero-Shot Clinical Natural Lan...,207,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,gpt-3.5-turbo-0125,105,78.0
+577,67,Zero-Shot Clinical Natural Lan...,207,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,llama-2-70B,105,80.0
+578,68,Zero-Shot Clinical Natural Lan...,210,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,gemini-1.5-pro,105,67.0
+579,68,Zero-Shot Clinical Natural Lan...,210,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,gpt-3.5-turbo-0125,105,76.0
+580,68,Zero-Shot Clinical Natural Lan...,210,An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study,llama-2-70B,105,58.0
+581,69,Common Lumbar Spine Fusion Sur...,213,Analyzing Large Language Models??Responses to Common Lumbar Spine Fusion Surgery Questions: A Comparison Between ChatGPT and Bard,gpt-3.5-turbo-0613,50,62.0
+582,69,Common Lumbar Spine Fusion Sur...,213,Analyzing Large Language Models??Responses to Common Lumbar Spine Fusion Surgery Questions: A Comparison Between ChatGPT and Bard,palm-2-540B,50,66.0
+583,7,generating clinical scenarios ...,25,"Using large language models (ChatGPT, Copilot, PaLM, Bard, and Gemini) in Gross Anatomy course: Comparative analysis.",gemini-1.0-pro,72,76.2
+584,7,generating clinical scenarios ...,25,"Using large language models (ChatGPT, Copilot, PaLM, Bard, and Gemini) in Gross Anatomy course: Comparative analysis.",gpt-3.5-turbo-1106,72,71.7
+585,7,generating clinical scenarios ...,25,"Using large language models (ChatGPT, Copilot, PaLM, Bard, and Gemini) in Gross Anatomy course: Comparative analysis.",gpt-4-1106-preview,72,88.6
+586,7,generating clinical scenarios ...,25,"Using large language models (ChatGPT, Copilot, PaLM, Bard, and Gemini) in Gross Anatomy course: Comparative analysis.",gpt-4-1106-preview (open),72,60.0
+587,7,generating clinical scenarios ...,25,"Using large language models (ChatGPT, Copilot, PaLM, Bard, and Gemini) in Gross Anatomy course: Comparative analysis.",palm-2-540B,72,62.6
+588,70,the European Board of Urology ...,215,Performance of ChatGPT-3.5 and ChatGPT-4 on the European Board of Urology (EBU) exams: a comparative analysis,gpt-3.5-turbo-0125,200,61.7
+589,70,the European Board of Urology ...,215,Performance of ChatGPT-3.5 and ChatGPT-4 on the European Board of Urology (EBU) exams: a comparative analysis,gpt-4-turbo-2024-04-09,200,80.0
+590,71,Preoperative Education of Pati...,217,Comparative Performance of Current Patient-Accessible Artificial Intelligence Large Language Models in the Preoperative Education of Patients in Facial Aesthetic Surgery,gpt-3.5-turbo-0613,42,67.0
+591,71,Preoperative Education of Pati...,217,Comparative Performance of Current Patient-Accessible Artificial Intelligence Large Language Models in the Preoperative Education of Patients in Facial Aesthetic Surgery,palm-2-540B,42,65.0
+592,72,MedicalDental Final Examinatio...,219,"A comparative analysis of the performance of chatGPT4, Gemini Gemini and Claude Claude for the Polish Medical Final Diploma Exam and Medical-Dental Verification Exam.",claude-3-opus-20240229,198,69.0
+593,72,MedicalDental Final Examinatio...,219,"A comparative analysis of the performance of chatGPT4, Gemini Gemini and Claude Claude for the Polish Medical Final Diploma Exam and Medical-Dental Verification Exam.",gemini-1.5-pro,198,57.0
+594,72,MedicalDental Final Examinatio...,219,"A comparative analysis of the performance of chatGPT4, Gemini Gemini and Claude Claude for the Polish Medical Final Diploma Exam and Medical-Dental Verification Exam.",gpt-4-0125-preview,198,58.0
+595,72,MedicalDental Final Examinatio...,219,"A comparative analysis of the performance of chatGPT4, Gemini Gemini and Claude Claude for the Polish Medical Final Diploma Exam and Medical-Dental Verification Exam.",human - cut-off,198,56.0
+596,73,triage task in the emergency d...,223,Reliability of ChatGPT for performing triage task in the emergency department using the Korean Triage and Acuity Scale,gpt-3.5-0301,202,32.0
+597,73,triage task in the emergency d...,223,Reliability of ChatGPT for performing triage task in the emergency department using the Korean Triage and Acuity Scale,gpt-4-0314,202,52.3
+598,74,Question-Answering in Ophthalm...,225,Advancing Question-Answering in Ophthalmology with Retrieval Augmented Generations (RAG): Benchmarking Open-source and Proprietary Large Language Models,gemma-2-27B,260,64.23
+599,74,Question-Answering in Ophthalm...,225,Advancing Question-Answering in Ophthalmology with Retrieval Augmented Generations (RAG): Benchmarking Open-source and Proprietary Large Language Models,gpt-4-turbo-2024-04-09,260,80.38
+600,74,Question-Answering in Ophthalm...,225,Advancing Question-Answering in Ophthalmology with Retrieval Augmented Generations (RAG): Benchmarking Open-source and Proprietary Large Language Models,llama-3-70B,260,64.62
+601,74,Question-Answering in Ophthalm...,225,Advancing Question-Answering in Ophthalmology with Retrieval Augmented Generations (RAG): Benchmarking Open-source and Proprietary Large Language Models,mixtral-8x7B,260,57.69
+602,75,for recommending procedures by...,229,Prediction of tumor board procedural recommendations using large language models.,gemma-1-7B,329,14.65
+603,75,for recommending procedures by...,229,Prediction of tumor board procedural recommendations using large language models.,gpt-3.5-turbo-0125,329,63.73
+604,75,for recommending procedures by...,229,Prediction of tumor board procedural recommendations using large language models.,gpt-4o-2024-05-13,329,60.58
+605,75,for recommending procedures by...,229,Prediction of tumor board procedural recommendations using large language models.,llama-3-8B,329,41.91
+606,75,for recommending procedures by...,229,Prediction of tumor board procedural recommendations using large language models.,mistral-7B-instruct-v0.1,329,53.58
+607,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,claude-3-haiku-20240307,135,76.6
+608,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,claude-3-opus-20240229,135,81.4
+609,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,gemma-1-7B,135,47.4
+610,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,gpt-3.5-turbo-1106,135,74.4
+611,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,gpt-4-1106-preview,135,83.8
+612,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,gpt-4-turbo-2024-04-09,135,82.8
+613,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,llama-2-70B,135,77.0
+614,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,llama-2-7B,135,71.2
+615,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,llama-3-70B,135,81.0
+616,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,llama-3-8B,135,76.0
+617,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,meditron-7B,135,38.8
+618,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,mistral-7B-instruct-v0.1,135,75.4
+619,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,mixtral-8x7B,135,78.7
+620,76,Autonomous Medical Evaluation ...,234,Autonomous medical evaluation for guideline adherence of large language models,wizardlm-2-8x22B,135,82.6
+621,77,treatment recommendations for ...,249,"ChatGPT v4 outperforming v3.5 on cancer treatment recommendations in quality, clinical guideline, and expert opinion concordance",gpt-3.5-turbo-0613,108,49.1
+622,77,treatment recommendations for ...,249,"ChatGPT v4 outperforming v3.5 on cancer treatment recommendations in quality, clinical guideline, and expert opinion concordance",gpt-4-0613,108,76.8
+623,78,the accuracy of medical knowle...,251,Knowledge-tuning Large Language Models with Structured Medical Knowledge Bases for Trustworthy Response Generation in Chinese,alpaca-7B,7449,67.0
+624,78,the accuracy of medical knowle...,251,Knowledge-tuning Large Language Models with Structured Medical Knowledge Bases for Trustworthy Response Generation in Chinese,bloomz-7B,7449,71.4
+625,79,Determining Causes of Death Fr...,253,Diagnostic Performance of GPT-4o and Claude 3 Opus in Determining Causes of Death From Medical Histories and Postmortem CT Findings,claude-3-opus-20240229,100,64.7
+626,79,Determining Causes of Death Fr...,253,Diagnostic Performance of GPT-4o and Claude 3 Opus in Determining Causes of Death From Medical Histories and Postmortem CT Findings,gpt-4o-2024-05-13,100,67.2
+627,8,providing information to paren...,30,Can large language models provide accurate and quality information to parents regarding chronic kidney diseases?,gemini-1.0-pro,40,83.6
+628,8,providing information to paren...,30,Can large language models provide accurate and quality information to parents regarding chronic kidney diseases?,gpt-3.5-turbo-1106,40,78.5
+629,8,providing information to paren...,30,Can large language models provide accurate and quality information to parents regarding chronic kidney diseases?,gpt-4-1106-preview (open),40,68.3
+630,80,CAD‑RADS (Coronary Artery Dise...,255,ChatGPT vs Gemini: Comparative Accuracy and Efficiency in CAD-RADS Score Assignment from Radiology Reports.,gemini-1.0-ultra,100,82.6
+631,80,CAD‑RADS (Coronary Artery Dise...,255,ChatGPT vs Gemini: Comparative Accuracy and Efficiency in CAD-RADS Score Assignment from Radiology Reports.,gemini-1.5-pro,100,61.1
+632,80,CAD‑RADS (Coronary Artery Dise...,255,ChatGPT vs Gemini: Comparative Accuracy and Efficiency in CAD-RADS Score Assignment from Radiology Reports.,gpt-3.5-turbo-0125,100,50.5
+633,80,CAD‑RADS (Coronary Artery Dise...,255,ChatGPT vs Gemini: Comparative Accuracy and Efficiency in CAD-RADS Score Assignment from Radiology Reports.,gpt-4o-2024-05-13,100,87.0
+634,81,multidisciplinary tumor board ...,266,Assessing the role of advanced artificial intelligence as a tool in multidisciplinary tumor board decision-making for recurrent/metastatic head and neck cancer cases ??the first study on ChatGPT 4o and a comparison to ChatGPT 4.0,gpt-4-0125-preview,100,93.0
+635,81,multidisciplinary tumor board ...,266,Assessing the role of advanced artificial intelligence as a tool in multidisciplinary tumor board decision-making for recurrent/metastatic head and neck cancer cases ??the first study on ChatGPT 4o and a comparison to ChatGPT 4.0,gpt-4o-2024-05-13,100,94.6
+636,82,data extraction from unstructu...,268,Evaluating local open-source large language models for data extraction from unstructured reports on mechanical thrombectomy in patients with ischemic stroke.,biomistral-7B,1026,49.7
+637,82,data extraction from unstructu...,268,Evaluating local open-source large language models for data extraction from unstructured reports on mechanical thrombectomy in patients with ischemic stroke.,mixtral-8x7B,1026,89.9
+638,82,data extraction from unstructu...,268,Evaluating local open-source large language models for data extraction from unstructured reports on mechanical thrombectomy in patients with ischemic stroke.,qwen-1-72B,1026,55.9
+639,83,the precise diagnostic ability...,271,The Diagnostic Ability of GPT-3.5 and GPT-4.0 in Surgery: Comparative Analysis,gpt-3.5-turbo-0613,286,85.5
+640,83,the precise diagnostic ability...,271,The Diagnostic Ability of GPT-3.5 and GPT-4.0 in Surgery: Comparative Analysis,gpt-4-0613,286,97.2
+641,84,text-only questions from the O...,273,Performance of ChatGPT on Solving Orthopedic Board-Style Questions: A Comparative Analysis of ChatGPT 3.5 and ChatGPT 4,gpt-3.5-turbo-0125,160,37.5
+642,84,text-only questions from the O...,273,Performance of ChatGPT on Solving Orthopedic Board-Style Questions: A Comparative Analysis of ChatGPT 3.5 and ChatGPT 4,gpt-4-turbo-2024-04-09,160,60.0
+643,85,reliability on the frequently ...,276,"A Performance Evaluation of Large Language Models in Keratoconus: A Comparative Study of ChatGPT-3.5, ChatGPT-4.0, Gemini, Copilot, Chatsonic, and Perplexity",gemini-1.5-pro,20,46.08
+644,85,reliability on the frequently ...,276,"A Performance Evaluation of Large Language Models in Keratoconus: A Comparative Study of ChatGPT-3.5, ChatGPT-4.0, Gemini, Copilot, Chatsonic, and Perplexity",gpt-3.5-turbo-0613,20,42.91
+645,85,reliability on the frequently ...,276,"A Performance Evaluation of Large Language Models in Keratoconus: A Comparative Study of ChatGPT-3.5, ChatGPT-4.0, Gemini, Copilot, Chatsonic, and Perplexity",gpt-4-turbo-2024-04-09,20,43.1
+646,85,reliability on the frequently ...,276,"A Performance Evaluation of Large Language Models in Keratoconus: A Comparative Study of ChatGPT-3.5, ChatGPT-4.0, Gemini, Copilot, Chatsonic, and Perplexity",gpt-4-turbo-2024-04-09 (open),20,46.95
+647,85,reliability on the frequently ...,276,"A Performance Evaluation of Large Language Models in Keratoconus: A Comparative Study of ChatGPT-3.5, ChatGPT-4.0, Gemini, Copilot, Chatsonic, and Perplexity",perplexity,20,45.96
+648,86,average overall accuracy of de...,278,Generation of guideline-based clinical decision trees in oncology using large language models,claude-2.0,25,39.3
+649,86,average overall accuracy of de...,278,Generation of guideline-based clinical decision trees in oncology using large language models,gpt-4-0613,25,46.7
+650,87,differentiate vasospastic angi...,280,Large language models to differentiate vasospastic angina using patient information,gpt-3.5-0301,66,51.5
+651,87,differentiate vasospastic angi...,280,Large language models to differentiate vasospastic angina using patient information,gpt-4-0314,66,57.6
+652,87,differentiate vasospastic angi...,280,Large language models to differentiate vasospastic angina using patient information,palm-2-540B,66,47.0
+653,88,multiple-choice questions focu...,283,Evaluating Accuracy and Reproducibility of Large Language Model Performance in Pharmacy Education,claude-2.0,219,64.0
+654,88,multiple-choice questions focu...,283,Evaluating Accuracy and Reproducibility of Large Language Model Performance in Pharmacy Education,gpt-3.5-turbo-1106,219,56.5
+655,88,multiple-choice questions focu...,283,Evaluating Accuracy and Reproducibility of Large Language Model Performance in Pharmacy Education,gpt-4-1106-preview,219,72.0
+656,88,multiple-choice questions focu...,283,Evaluating Accuracy and Reproducibility of Large Language Model Performance in Pharmacy Education,human - doctors,219,82.0
+657,88,multiple-choice questions focu...,283,Evaluating Accuracy and Reproducibility of Large Language Model Performance in Pharmacy Education,llama-2-13B,219,42.0
+658,88,multiple-choice questions focu...,283,Evaluating Accuracy and Reproducibility of Large Language Model Performance in Pharmacy Education,llama-2-7B,219,35.0
+659,89,Automated Pathologic TN Classi...,289,Automated Pathologic TN Classification Prediction and Rationale Generation From Lung Cancer Surgical Pathology Reports Using a Large Language Model Fine-Tuned With Chain-of-Thought: Algorithm Development and Validation Study,llama-2-13B,644,76.2
+660,89,Automated Pathologic TN Classi...,289,Automated Pathologic TN Classification Prediction and Rationale Generation From Lung Cancer Surgical Pathology Reports Using a Large Language Model Fine-Tuned With Chain-of-Thought: Algorithm Development and Validation Study,llama-2-7B,644,86.4
+661,89,Automated Pathologic TN Classi...,289,Automated Pathologic TN Classification Prediction and Rationale Generation From Lung Cancer Surgical Pathology Reports Using a Large Language Model Fine-Tuned With Chain-of-Thought: Algorithm Development and Validation Study,llama-3-8B,644,48.9
+662,89,Automated Pathologic TN Classi...,289,Automated Pathologic TN Classification Prediction and Rationale Generation From Lung Cancer Surgical Pathology Reports Using a Large Language Model Fine-Tuned With Chain-of-Thought: Algorithm Development and Validation Study,mistral-7B-instruct-v0.1,644,57.2
+663,89,Automated Pathologic TN Classi...,289,Automated Pathologic TN Classification Prediction and Rationale Generation From Lung Cancer Surgical Pathology Reports Using a Large Language Model Fine-Tuned With Chain-of-Thought: Algorithm Development and Validation Study,orca-2-13B,644,92.4
+664,9,prediction of in-hospital all-...,32,ChatGPT Predicts In-Hospital All-Cause Mortality for Sepsis: In-Context Learning with the Korean Sepsis Alliance Database,gpt-3.5-turbo-1106,100,26.666666666666668
+665,9,prediction of in-hospital all-...,32,ChatGPT Predicts In-Hospital All-Cause Mortality for Sepsis: In-Context Learning with the Korean Sepsis Alliance Database,gpt-4-1106-preview,100,67.66666666666667
+666,90,interpret pediatric radiologic...,300,Capability of multimodal large language models to interpret pediatric radiological images.,claude-3-opus-20240229,90,37.0
+667,90,interpret pediatric radiologic...,300,Capability of multimodal large language models to interpret pediatric radiological images.,gemini-1.5-pro,90,23.0
+668,90,interpret pediatric radiologic...,300,Capability of multimodal large language models to interpret pediatric radiological images.,gpt-4-0125-preview,90,23.0
+669,91,explanations of CVD risk facto...,303,Leveraging ChatGPT and Long Short-Term Memory in Recommender Algorithm for Self-Management of Cardiovascular Risk Factors,gpt-3.5-turbo-0125,56,86.0
+670,91,explanations of CVD risk facto...,303,Leveraging ChatGPT and Long Short-Term Memory in Recommender Algorithm for Self-Management of Cardiovascular Risk Factors,gpt-4-turbo-2024-04-09,56,71.0
+671,91,explanations of CVD risk facto...,303,Leveraging ChatGPT and Long Short-Term Memory in Recommender Algorithm for Self-Management of Cardiovascular Risk Factors,gpt-4o-2024-05-13,56,86.0
+672,92,questions from the Korean gene...,306,ChatGPT goes to the operating room: evaluating GPT-4 performance and its potential in surgical education and training in the era of large language models,gpt-3.5-0301,280,16.8
+673,92,questions from the Korean gene...,306,ChatGPT goes to the operating room: evaluating GPT-4 performance and its potential in surgical education and training in the era of large language models,gpt-4-0314,280,76.4
+674,93,the Self-Assessment Questions ...,308,Performance of ChatGPT and Bard in Self-Assessment Questions for Nephrology Board Renewal,gpt-3.5-0301,99,31.3
+675,93,the Self-Assessment Questions ...,308,Performance of ChatGPT and Bard in Self-Assessment Questions for Nephrology Board Renewal,gpt-4-0314,99,54.5
+676,93,the Self-Assessment Questions ...,308,Performance of ChatGPT and Bard in Self-Assessment Questions for Nephrology Board Renewal,palm-1-540B,99,32.3
+677,94,complex decision‑making in bre...,311,Evolution of publicly available large language models for complex decision-making in breast cancer care,gpt-3.5-0301,20,50.0
+678,94,complex decision‑making in bre...,311,Evolution of publicly available large language models for complex decision-making in breast cancer care,gpt-4-0314,20,70.6
+679,94,complex decision‑making in bre...,311,Evolution of publicly available large language models for complex decision-making in breast cancer care,llama-2-70B,20,35.3
+680,94,complex decision‑making in bre...,311,Evolution of publicly available large language models for complex decision-making in breast cancer care,palm-1-540B,20,23.5
+681,95,Emergency Department ICD-10-CM...,316,Assessing Retrieval-Augmented Large Language Model Performance in Emergency Department ICD-10-CM Coding Compared to Human Coders,gemma-2-9B,500,7.2
+682,95,Emergency Department ICD-10-CM...,316,Assessing Retrieval-Augmented Large Language Model Performance in Emergency Department ICD-10-CM Coding Compared to Human Coders,gpt-3.5-turbo-0125,500,16.8
+683,95,Emergency Department ICD-10-CM...,316,Assessing Retrieval-Augmented Large Language Model Performance in Emergency Department ICD-10-CM Coding Compared to Human Coders,gpt-4-turbo-2024-04-09,500,22.2
+684,95,Emergency Department ICD-10-CM...,316,Assessing Retrieval-Augmented Large Language Model Performance in Emergency Department ICD-10-CM Coding Compared to Human Coders,llama-3.1-70B-instruct,500,14.4
+685,95,Emergency Department ICD-10-CM...,316,Assessing Retrieval-Augmented Large Language Model Performance in Emergency Department ICD-10-CM Coding Compared to Human Coders,llama-3.1-8B-instruct,500,72.0
+686,95,Emergency Department ICD-10-CM...,316,Assessing Retrieval-Augmented Large Language Model Performance in Emergency Department ICD-10-CM Coding Compared to Human Coders,phi-3.5-mini,500,18.0
+687,95,Emergency Department ICD-10-CM...,316,Assessing Retrieval-Augmented Large Language Model Performance in Emergency Department ICD-10-CM Coding Compared to Human Coders,qwen-2-72B-chat,500,8.0
+688,95,Emergency Department ICD-10-CM...,316,Assessing Retrieval-Augmented Large Language Model Performance in Emergency Department ICD-10-CM Coding Compared to Human Coders,qwen-2-7B-chat,500,16.0
+689,96,Diagnostic Accuracy on Rare Pe...,324,Diagnostic Accuracy of a Custom Large Language Model on Rare Pediatric Disease Case Reports.,gemini-1.0-pro,61,8.2
+690,96,Diagnostic Accuracy on Rare Pe...,324,Diagnostic Accuracy of a Custom Large Language Model on Rare Pediatric Disease Case Reports.,gpt-4-0125-preview,61,13.1
+691,97,INFORMATION EXTRACTION FROM EM...,326,Large Language Models for Biomedical Knowledge Graph Construction: Information extraction from EMR notes,llama-2-70B,122,61.4
+692,97,INFORMATION EXTRACTION FROM EM...,326,Large Language Models for Biomedical Knowledge Graph Construction: Information extraction from EMR notes,vicuna-1.3-33B,122,64.8
+693,97,INFORMATION EXTRACTION FROM EM...,326,Large Language Models for Biomedical Knowledge Graph Construction: Information extraction from EMR notes,wizardlm-1-70B,122,74.4
+694,98,Triage Performance in Emergenc...,329,"Triage Performance Across Large Language Models, ChatGPT, and Untrained Doctors in Emergency Medicine: Comparative Study",gemini-1.5-pro,124,60.0
+695,98,Triage Performance in Emergenc...,329,"Triage Performance Across Large Language Models, ChatGPT, and Untrained Doctors in Emergency Medicine: Comparative Study",gpt-3.5-0301,124,54.0
+696,98,Triage Performance in Emergenc...,329,"Triage Performance Across Large Language Models, ChatGPT, and Untrained Doctors in Emergency Medicine: Comparative Study",gpt-4-0314,124,67.0
+697,98,Triage Performance in Emergenc...,329,"Triage Performance Across Large Language Models, ChatGPT, and Untrained Doctors in Emergency Medicine: Comparative Study",human - doctors,124,68.0
+698,98,Triage Performance in Emergenc...,329,"Triage Performance Across Large Language Models, ChatGPT, and Untrained Doctors in Emergency Medicine: Comparative Study",llama-3-70B,124,52.0
+699,98,Triage Performance in Emergenc...,329,"Triage Performance Across Large Language Models, ChatGPT, and Untrained Doctors in Emergency Medicine: Comparative Study",mixtral-8x7B,124,42.0
+700,99,Medical Consultation Assistant...,335,Assessing ChatGPT as a Medical Consultation Assistant for Chronic Hepatitis B: Cross-Language Study of English and Chinese,gpt-3.5-0301,96,65.0
+701,99,Medical Consultation Assistant...,335,Assessing ChatGPT as a Medical Consultation Assistant for Chronic Hepatitis B: Cross-Language Study of English and Chinese,gpt-4-0314,96,93.3
